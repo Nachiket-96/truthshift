@@ -1,4 +1,7 @@
 // All calls to the FastAPI backend. In development Vite forwards /api to http://localhost:8000.
+// The online demo (GitHub Pages, built with VITE_STATIC=1) has no backend and uses localApi instead.
+import { localApi } from './localApi'
+
 async function request(path, options = {}) {
   const res = await fetch(path, {
     headers: { 'Content-Type': 'application/json' },
@@ -12,7 +15,7 @@ async function request(path, options = {}) {
   return res.json()
 }
 
-export const api = {
+const serverApi = {
   meta: () => request('/api/meta'),
   stores: () => request('/api/stores'),
   score: (weights, filters = {}) => request('/api/score', { method: 'POST', body: { weights, ...filters } }),
@@ -20,3 +23,6 @@ export const api = {
   barcode: code => request(`/api/barcode/${encodeURIComponent(code)}`),
   ask: (question, weights, lang) => request('/api/ask', { method: 'POST', body: { question, weights, lang } }),
 }
+
+export const IS_STATIC = import.meta.env.VITE_STATIC === '1'
+export const api = IS_STATIC ? localApi : serverApi

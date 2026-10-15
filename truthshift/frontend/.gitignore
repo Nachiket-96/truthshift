@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Copied from backend/data by scripts/copy-data.mjs
+public/data/

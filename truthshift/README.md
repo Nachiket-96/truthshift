@@ -7,6 +7,11 @@ Our project for the RODS Tech Skills Showcase 2026 challenge, "The Ethical Consu
 - **Data:** JSON files plus the Open Food Facts API
 - **AI (optional):** Claude API
 
+## Online demo
+
+**https://nachiket-96.github.io/truthshift/** runs on GitHub Pages with no backend: `src/localApi.js` mirrors the backend's scoring in the browser, and gives the same scores for all 118 products.
+To update it after changes, run `bash truthshift/deploy-pages.sh`. It builds with `npm run build:pages` and pushes to the `gh-pages` branch.
+
 ## Run it
 
 **Easiest:** double-click `start.bat` (Windows) or run `./start.sh` (Mac/Linux). It installs packages the first time and starts both servers.

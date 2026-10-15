@@ -4,6 +4,17 @@ This is our project for the **RODS Tech Skills Showcase 2026** challenge, "The E
 
 TruthShift scores grocery products against each shopper's own values: Buy Canadian, Support Regina, fair trade, animal welfare, environment, packaging and price. Every fact is labelled **Verified**, **Claimed** or **Unknown**, and unknown facts never count against a product.
 
+## Try it now (no install)
+
+**https://nachiket-96.github.io/truthshift/**
+
+This link opens on any phone or laptop, on any Wi-Fi or mobile data. On Android:
+1. Open the link in Chrome.
+2. Go to **Scan → Scan barcode** and **Allow** the camera.
+3. Optional: Chrome menu **⋮ → Add to Home screen** (or **Install app**) to get a TruthShift icon.
+
+The online demo runs the same scoring engine in the browser. AI-written answers need the full app with the backend, described below.
+
 ## Run it (2 steps)
 
 You need [Python 3.10+](https://www.python.org/downloads/) and [Node.js 20+](https://nodejs.org/) installed. On Windows, tick **"Add Python to PATH"** when installing Python.
@@ -19,7 +30,7 @@ git clone https://github.com/Nachiket-96/truthshift.git
 - The app opens at **https://localhost:5173**.
 - Your browser will say "Your connection is not private". This is expected for a local app: click **Advanced → Proceed**.
 
-## Open it on your Android phone (with camera scanning)
+## Open your local copy on a phone
 
 1. Connect the phone to the **same Wi-Fi** as the laptop running TruthShift.
 2. In the **"TruthShift app"** window, find the line `Network: https://192.168.x.x:5173`.

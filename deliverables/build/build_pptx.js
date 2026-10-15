@@ -347,7 +347,10 @@ async function iconCircle(s, name, x, y, d, bg, fg, objectName) {
     s.addImage({ data: await icon("LuGithub", HEX.mint), x: 0.6, y: 3.75, w: 0.45, h: 0.45, objectName: "github-icon", altText: "GitHub" });
     text(s, [{ text: "github.com/Nachiket-96/truthshift", options: { hyperlink: { url: "https://github.com/Nachiket-96/truthshift" } } }],
       { x: 1.2, y: 3.75, w: 6, h: 0.45, fontSize: 18, color: HEX.mint, valign: "middle" });
-    s.addNotes("Thank you. The code, this presentation and the documentation are on GitHub. We are happy to take questions, or let you try the app.");
+    s.addImage({ data: await icon("LuMonitorSmartphone", HEX.mint), x: 0.6, y: 4.35, w: 0.45, h: 0.45, objectName: "demo-icon", altText: "Live demo" });
+    text(s, [{ text: "nachiket-96.github.io/truthshift", options: { hyperlink: { url: "https://nachiket-96.github.io/truthshift/" } } }],
+      { x: 1.2, y: 4.35, w: 6, h: 0.45, fontSize: 18, color: HEX.mint, valign: "middle" });
+    s.addNotes("Thank you. Try TruthShift on your own phone at nachiket-96.github.io/truthshift. The code, this presentation and the documentation are on GitHub. We are happy to take questions, or let you try the app.");
   }
 
   await pres.writeFile({ fileName: OUT });

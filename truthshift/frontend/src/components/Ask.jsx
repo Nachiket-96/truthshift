@@ -49,6 +49,9 @@ export default function Ask({ lang, meta, weights, onOpen }) {
             </div>
           )}
           {answer.ai.status === 'error' && <p className="muted small">{answer.ai.text}</p>}
+          {answer.ai.status === 'static' && (
+            <p className="muted small">This online demo ranks products with our scoring engine. AI-written answers run in the full app with the backend.</p>
+          )}
           {answer.ai.status === 'no_credentials' && (
             <p className="muted small">AI answers are off: set ANTHROPIC_API_KEY before starting the backend to turn them on. The ranking below works without it.</p>
           )}
