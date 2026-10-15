@@ -1,0 +1,20 @@
+{
+  "v": 4,
+  "createdOnFiles": { "v": 1, "at": "2026-10-15T17:42:16Z" },
+  "lists": "css",
+  "title": "TruthShift — RODS Showcase",
+  "cover": "cover",
+  "order": ["cover", "problem", "audience", "solution", "evidence", "tiers", "scoring", "demo", "architecture", "datasets", "stack", "next", "thanks"],
+  "sections": {
+    "s1": { "description": "The problem and who we built for", "start": "cover" },
+    "s2": { "description": "What the app does and how it stays honest", "start": "solution" },
+    "s3": { "description": "Live demo", "start": "demo" },
+    "s4": { "description": "How it is built and what data it uses", "start": "architecture" },
+    "s5": { "description": "Limits and next steps", "start": "next" }
+  },
+  "faces": {
+    "bricolage-grotesque": { "family": "Bricolage Grotesque", "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&display=swap" },
+    "atkinson-hyperlegible": { "family": "Atkinson Hyperlegible", "href": "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" }
+  },
+  "designSystems": []
+}

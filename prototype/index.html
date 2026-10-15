@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TruthShift</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:wght@600;700&family=Noto+Sans+Gujarati:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">🧭 <span data-i18n="title">TruthShift</span></div>
+    <select id="lang" aria-label="Language">
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+      <option value="gu">ગુજરાતી</option>
+    </select>
+  </header>
+
+  <nav class="tabs">
+    <button data-tab="priorities" class="active">⚖️ <span data-i18n="tab_priorities">My priorities</span></button>
+    <button data-tab="scan">📷 <span data-i18n="tab_scan">Scan & search</span></button>
+    <button data-tab="compare">📊 <span data-i18n="tab_compare">Compare</span></button>
+    <button data-tab="ask">💬 <span data-i18n="tab_ask">Ask TruthShift</span></button>
+    <button data-tab="map">📍 <span data-i18n="tab_map">Nearby</span></button>
+  </nav>
+
+  <main>
+    <!-- PRIORITIES -->
+    <section id="tab-priorities" class="tab active">
+      <h2 data-i18n="prio_h">What matters to you?</h2>
+      <p class="muted" data-i18n="prio_p">Everyone defines "ethical" differently. Set how much each issue matters (0 = don't care, 5 = very important). Scores everywhere update instantly.</p>
+      <div id="sliders" class="sliders"></div>
+      <div class="presets">
+        <span class="muted" data-i18n="presets">Quick presets:</span>
+        <button data-preset="canadian">🍁 Buy Canadian</button>
+        <button data-preset="budget">💲 Tight budget</button>
+        <button data-preset="green">🌱 Low waste & green</button>
+        <button data-preset="fair">🤝 Fair labour</button>
+        <button data-preset="reset">↺ Default</button>
+      </div>
+      <div class="legend card">
+        <h3 data-i18n="legend_h">How to read our information</h3>
+        <p><span class="badge verified">✔ Verified</span> confirmed by a certifier, government or registry.</p>
+        <p><span class="badge claimed">⚠ Claimed</span> stated by the business — not independently confirmed. Counts for less.</p>
+        <p><span class="badge unknown">? Unknown</span> we couldn't find it. <b>Not counted against the product</b> — it lowers our <i>confidence</i> instead.</p>
+        <p><span class="badge na">— N/A</span> doesn't apply (e.g. animal welfare for pasta).</p>
+      </div>
+    </section>
+
+    <!-- SCAN / SEARCH -->
+    <section id="tab-scan" class="tab">
+      <div class="scanbar">
+        <input id="search" type="search" placeholder="Search a product, brand, or type a barcode…" />
+        <button id="scanBtn" class="primary">📷 <span data-i18n="scan_btn">Scan barcode</span></button>
+      </div>
+      <label class="upload muted" for="scanFile">No camera? Upload a photo of the barcode: <input id="scanFile" type="file" accept="image/*" /></label>
+      <div id="reader" class="hidden"></div>
+      <p id="scanMsg" class="muted"></p>
+      <div id="productList" class="grid"></div>
+      <div id="detail"></div>
+    </section>
+
+    <!-- COMPARE -->
+    <section id="tab-compare" class="tab">
+      <div class="row">
+        <label data-i18n="category">Category</label>
+        <select id="compareCat"></select>
+      </div>
+      <div id="compareTable" class="table-wrap"></div>
+      <p class="muted small">Sorted by <b>your</b> personal score. Cell icons: ✔ verified · ⚠ claimed · ? unknown · — not applicable.</p>
+    </section>
+
+    <!-- ASK -->
+    <section id="tab-ask" class="tab">
+      <h2 data-i18n="ask_h">Ask TruthShift</h2>
+      <p class="muted">Ask in plain words. Answers only use our product data — no guessing.</p>
+      <div class="examples">
+        <button class="ex">I want to buy Canadian, avoid plastic, and support fair labour. Which coffee?</button>
+        <button class="ex">Cheapest eggs with good animal welfare</button>
+        <button class="ex">Chocolate under $4 with fair trade</button>
+        <button class="ex">Support Regina businesses — which lentils?</button>
+      </div>
+      <form id="askForm" class="scanbar">
+        <input id="askInput" placeholder="e.g. Canadian peanut butter without plastic under $6" />
+        <button class="primary" type="submit">Ask</button>
+      </form>
+      <div id="askOut"></div>
+    </section>
+
+    <!-- MAP -->
+    <section id="tab-map" class="tab">
+      <div class="row">
+        <button id="locBtn">📍 <span data-i18n="use_loc">Use my location</span></button>
+        <label for="area" class="muted">or pick your area</label>
+        <select id="area">
+          <option value="50.4452,-104.6189">Downtown</option>
+          <option value="50.4160,-104.6800">Harbour Landing</option>
+          <option value="50.4950,-104.6400">North Central / Rochdale</option>
+          <option value="50.4450,-104.5500">East (Victoria Ave)</option>
+          <option value="50.4060,-104.5980">Whitmore Park / University</option>
+          <option value="50.4600,-104.6600">Normanview</option>
+        </select>
+        <span id="mapInfo" class="muted"></span>
+      </div>
+      <div id="map"></div>
+      <svg id="schematic" class="hidden" viewBox="0 0 600 380" role="img" aria-label="Outline map of Regina stores"></svg>
+      <div id="storeList"></div>
+    </section>
+  </main>
+
+  <footer class="muted small">
+    Prototype for the RODS Tech Skills Showcase 2026. Demo data is synthetic (fictional brands, approximate store locations).
+    Unknown ≠ unethical. Always check labels for the latest information.
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+  <script src="data.js"></script>
+  <script src="scoring.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

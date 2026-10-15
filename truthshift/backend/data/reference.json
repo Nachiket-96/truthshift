@@ -1,0 +1,59 @@
+{
+  "factors": {
+    "canadian": {
+      "icon": "🍁",
+      "label": "Buy Canadian"
+    },
+    "local": {
+      "icon": "🏙️",
+      "label": "Support Regina / SK"
+    },
+    "fairTrade": {
+      "icon": "🤝",
+      "label": "Fair trade & labour"
+    },
+    "animal": {
+      "icon": "🐄",
+      "label": "Animal welfare"
+    },
+    "environment": {
+      "icon": "🌱",
+      "label": "Environment"
+    },
+    "packaging": {
+      "icon": "♻️",
+      "label": "Low-waste packaging"
+    },
+    "price": {
+      "icon": "💲",
+      "label": "Affordability"
+    }
+  },
+  "originTiers": {
+    "product_of_canada": {
+      "label": "Product of Canada",
+      "tone": "good",
+      "explain": "All or nearly all (≈98%+) ingredients, processing and labour are Canadian."
+    },
+    "made_in_canada": {
+      "label": "Made in Canada (with imported ingredients)",
+      "tone": "mid",
+      "explain": "Last major transformation happened in Canada, but some ingredients/components are imported."
+    },
+    "canadian_owned": {
+      "label": "Canadian-owned company",
+      "tone": "mid",
+      "explain": "The company is Canadian-owned, but the product may be made elsewhere or with imported inputs."
+    },
+    "imported": {
+      "label": "Imported",
+      "tone": "low",
+      "explain": "Made outside Canada by a non-Canadian company."
+    },
+    "unknown": {
+      "label": "Origin not confirmed",
+      "tone": "unknown",
+      "explain": "We couldn't confirm where this is made. This does not mean it is bad — only unknown."
+    }
+  }
+}
