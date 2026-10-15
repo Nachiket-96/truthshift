@@ -11,3 +11,5 @@ __pycache__/
 *.jpg
 !deliverables/build/shots/*_crop.jpg
 deliverables/build/shots/*.png
+deliverables/build/qa*
+deliverables/build/m[0-9].png
