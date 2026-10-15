@@ -89,7 +89,7 @@ export default function ScanSearch({ lang, meta, weights, scored, selectedId, on
       </div>
       {!list.length && <p className="muted">No match. Type a full barcode and press Enter to look it up on Open Food Facts.</p>}
 
-      <div ref={detailRef} style={{ marginTop: 16 }}>
+      <div ref={detailRef} style={{ marginTop: 16, scrollMarginTop: 80 }}>
         {selectedId && <ProductDetail lang={lang} meta={meta} id={selectedId} weights={weights} onOpen={open} onShowMap={onShowMap} />}
       </div>
     </section>

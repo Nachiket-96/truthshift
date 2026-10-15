@@ -5,6 +5,7 @@ const STRINGS = {
   en: {
     title: 'TruthShift',
     tab_priorities: 'My priorities', tab_scan: 'Scan & search', tab_compare: 'Compare', tab_ask: 'Ask TruthShift', tab_map: 'Nearby',
+    short_priorities: 'Priorities', short_scan: 'Scan', short_compare: 'Compare', short_ask: 'Ask', short_map: 'Nearby',
     prio_h: 'What matters to you?',
     prio_p: 'Everyone defines "ethical" differently. Set how much each issue matters (0 = not at all, 5 = very important). Scores everywhere update instantly.',
     presets: 'Quick presets:', legend_h: 'How to read our information',
@@ -19,6 +20,7 @@ const STRINGS = {
   fr: {
     title: 'TruthShift',
     tab_priorities: 'Mes priorités', tab_scan: 'Scanner et chercher', tab_compare: 'Comparer', tab_ask: 'Demander', tab_map: 'À proximité',
+    short_priorities: 'Priorités', short_scan: 'Scanner', short_compare: 'Comparer', short_ask: 'Demander', short_map: 'Proximité',
     prio_h: 'Qu\'est-ce qui compte pour vous ?',
     prio_p: 'Chacun définit « éthique » différemment. Indiquez l\'importance de chaque enjeu (0 = pas du tout, 5 = très important).',
     presets: 'Préréglages :', legend_h: 'Comment lire nos informations',
@@ -33,6 +35,7 @@ const STRINGS = {
   gu: {
     title: 'TruthShift',
     tab_priorities: 'મારી પ્રાથમિકતા', tab_scan: 'સ્કેન અને શોધ', tab_compare: 'સરખામણી', tab_ask: 'પૂછો', tab_map: 'નજીકમાં',
+    short_priorities: 'પ્રાથમિકતા', short_scan: 'સ્કેન', short_compare: 'સરખામણી', short_ask: 'પૂછો', short_map: 'નજીકમાં',
     prio_h: 'તમારા માટે શું મહત્વનું છે?',
     prio_p: 'દરેક વ્યક્તિ માટે "નૈતિક"નો અર્થ જુદો છે. દરેક મુદ્દો કેટલો મહત્વનો છે તે પસંદ કરો (0 = બિલકુલ નહીં, 5 = ખૂબ મહત્વનું).',
     presets: 'ઝડપી પસંદગી:', legend_h: 'માહિતી કેવી રીતે વાંચવી',

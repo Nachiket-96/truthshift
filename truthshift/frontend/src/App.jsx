@@ -63,7 +63,7 @@ export default function App() {
       <nav className="tabs">
         {TABS.map(([key, icon, label]) => (
           <button key={key} className={tab === key ? 'active' : ''} onClick={() => setTab(key)}>
-            {icon} {t(lang, label)}
+            <span className="tab-icon" aria-hidden="true">{icon}</span> <span className="tab-label tab-long">{t(lang, label)}</span><span className="tab-label tab-short">{t(lang, label.replace("tab_", "short_"))}</span>
           </button>
         ))}
       </nav>

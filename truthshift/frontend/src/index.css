@@ -150,3 +150,23 @@ footer { text-align: center; padding: 20px 16px 30px; }
 .stats span { background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px; font-size: .8rem; color: var(--muted); }
 .link { background: none; border: none; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; }
 .leaflet-container { font: inherit; }
+
+/* ---- Phone: app-style bottom navigation ---- */
+@media (max-width: 640px) {
+  .topbar { position: sticky; top: 0; z-index: 1001; padding-top: calc(12px + env(safe-area-inset-top, 0px)); }
+  .tabs {
+    position: fixed; top: auto; bottom: 0; left: 0; right: 0; z-index: 1001;
+    justify-content: space-around; gap: 0; padding: 6px 4px calc(6px + env(safe-area-inset-bottom, 0px));
+    border-top: 1px solid var(--border); border-bottom: none; overflow: visible;
+  }
+  .tabs button { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 4px; flex: 1; min-width: 0; border-radius: 10px; }
+  .tabs .tab-icon { font-size: 1.25rem; line-height: 1; }
+  .tabs .tab-label { font-size: .68rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+  main { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
+  footer { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
+}
+.tab-short { display: none; }
+@media (max-width: 640px) {
+  .tabs .tab-long { display: none; }
+  .tabs .tab-short { display: inline; }
+}
