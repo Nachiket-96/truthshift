@@ -52,7 +52,7 @@ backend/
 frontend/
   src/App.jsx            layout, tabs, shared state
   src/components/        Priorities, ScanSearch, ProductDetail, Compare, Ask, Nearby, ui
-  src/i18n.js            English, French, Gujarati screen text
+  src/i18n.js            English and French screen text
   src/api.js             calls to the backend
 ```
 

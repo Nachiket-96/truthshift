@@ -6,8 +6,8 @@
   --low: #c0392b; --low-bg: #fbe5e2;
   --unk: #7a7f85; --unk-bg: #eceef0;
   --on-accent: #ffffff;
-  --font-display: "Bricolage Grotesque", "Noto Sans Gujarati", system-ui, sans-serif;
-  --font-body: "Atkinson Hyperlegible", "Noto Sans Gujarati", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {

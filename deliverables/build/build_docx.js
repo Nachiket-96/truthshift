@@ -73,7 +73,7 @@ const children = [
   H1("1. Overview"),
   P("TruthShift is a web app that scores grocery products against each shopper’s own values, and shows how sure it is about every fact. We built it for the Regina Open Door Society (RODS) Tech Skills Showcase 2026 challenge, “The Ethical Consumer Compass”."),
   P("**The problem.** People want to buy Canadian, support Regina businesses, choose fair trade, protect animal welfare and cut packaging waste. The information they need (where a product is made, who owns the company, how workers and animals are treated, what happens to the packaging) is scattered and hard to compare."),
-  P("**Our solution.** The shopper sets how much each issue matters to them. They scan or search a product and get a personal score from 0 to 100, a plain-language explanation, and better alternatives at a similar price in nearby stores. Every fact carries an evidence label: Verified, Claimed by the business, or Unknown. Unknown facts never count against a product; they lower a separate confidence meter instead. The app is built for newcomers to Regina, with English, French and Gujarati screens and local recycling guidance."),
+  P("**Our solution.** The shopper sets how much each issue matters to them. They scan or search a product and get a personal score from 0 to 100, a plain-language explanation, and better alternatives at a similar price in nearby stores. Every fact carries an evidence label: Verified, Claimed by the business, or Unknown. Unknown facts never count against a product; they lower a separate confidence meter instead. The app is built for newcomers to Regina, with English and French screens and local recycling guidance."),
 
   // 2. Features
   H1("2. Features"),
@@ -83,7 +83,7 @@ const children = [
     ["My priorities", "Sets 7 sliders (Buy Canadian, Support Regina/SK, Fair trade, Animal welfare, Environment, Low-waste packaging, Affordability) or picks a preset", "Users set their own priorities; different definitions of ethical"],
     ["Scan & search", "Scans a barcode with the camera or a photo, types a barcode, or searches by name. Gets a personal score, confidence meter, evidence badge on every fact, Canadian-content tier, Regina recycling tip and better alternatives with the price difference", "Buy Canadian scanner; barcode app that explains its score"],
     ["Compare", "Sees every product in a category side by side, sorted by their own score", "Ethical product comparison tool; personalized dashboard"],
-    ["Ask TruthShift", "Asks in plain words (“Canadian, no plastic, under $5”) and gets a ranked list, plus a written answer from Claude in English, French or Gujarati", "AI shopping assistant"],
+    ["Ask TruthShift", "Asks in plain words (“Canadian, no plastic, under $5”) and gets a ranked list, plus a written answer from Claude in English or French", "AI shopping assistant"],
     ["Nearby", "Picks an area or shares location; sees Regina stores on an OpenStreetMap map with distances and the best picks at each store", "Local shopping tool; geo-locator; availability"],
   ]),
   gap(),
@@ -103,7 +103,7 @@ const children = [
     ["Barcode scanning", "html5-qrcode 2.3", "Reads EAN/UPC barcodes from the camera or an uploaded photo, in the browser"],
     ["Backend", "Python 3.13, FastAPI, Uvicorn", "Simple to read, fast, and auto-generates interactive API docs at /docs"],
     ["HTTP client", "httpx", "Calls the Open Food Facts API from the backend (avoids browser CORS limits)"],
-    ["AI assistant", "Anthropic Python SDK, model claude-opus-5-5 at low effort, with refusal fallbacks", "Writes plain-language answers in English, French or Gujarati using only our data. Optional: runs only when an API key is set"],
+    ["AI assistant", "Anthropic Python SDK, model claude-opus-5-5 at low effort, with refusal fallbacks", "Writes plain-language answers in English or French using only our data. Optional: runs only when an API key is set"],
     ["Data", "JSON files (products, stores, reference tables)", "Anyone on the team can edit them without touching code"],
     ["Real product data", "Open Food Facts API", "Free, open, crowd-sourced database with Canadian products"],
   ]),

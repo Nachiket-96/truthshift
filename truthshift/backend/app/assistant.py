@@ -24,7 +24,7 @@ INTENTS = {
     "packaging": r"plastic|packag|waste|recycl",
     "price": r"cheap|budget|afford|price|save|saving|low cost|money",
 }
-LANGUAGES = {"en": "English", "fr": "French", "gu": "Gujarati"}
+LANGUAGES = {"en": "English", "fr": "French"}
 MODEL = "claude-opus-5-5"
 
 _client: anthropic.Anthropic | None = None

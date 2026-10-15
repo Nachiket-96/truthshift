@@ -1,5 +1,5 @@
 // Screen text in each language. To add a language: copy the `en` block, translate it, add it to LANGS.
-export const LANGS = { en: 'English', fr: 'Français', gu: 'ગુજરાતી' }
+export const LANGS = { en: 'English', fr: 'Français' }
 
 const STRINGS = {
   en: {
@@ -31,21 +31,6 @@ const STRINGS = {
     why: 'Pourquoi ce score ?', better: 'Meilleurs choix selon vos priorités', best: 'C\'est le meilleur choix de sa catégorie selon vos priorités.',
     available: 'Disponible chez', show_map: 'Voir sur la carte', in_regina: 'À Regina', confidence: 'Confiance', owner: 'Propriétaire',
     backend_down: 'Le serveur ne répond pas. Lancez-le avec : uvicorn app.main:app --port 8000',
-  },
-  gu: {
-    title: 'TruthShift',
-    tab_priorities: 'મારી પ્રાથમિકતા', tab_scan: 'સ્કેન અને શોધ', tab_compare: 'સરખામણી', tab_ask: 'પૂછો', tab_map: 'નજીકમાં',
-    short_priorities: 'પ્રાથમિકતા', short_scan: 'સ્કેન', short_compare: 'સરખામણી', short_ask: 'પૂછો', short_map: 'નજીકમાં',
-    prio_h: 'તમારા માટે શું મહત્વનું છે?',
-    prio_p: 'દરેક વ્યક્તિ માટે "નૈતિક"નો અર્થ જુદો છે. દરેક મુદ્દો કેટલો મહત્વનો છે તે પસંદ કરો (0 = બિલકુલ નહીં, 5 = ખૂબ મહત્વનું).',
-    presets: 'ઝડપી પસંદગી:', legend_h: 'માહિતી કેવી રીતે વાંચવી',
-    search_ph: 'પ્રોડક્ટ અથવા બ્રાન્ડ શોધો, અથવા બારકોડ લખી Enter દબાવો',
-    scan_btn: 'બારકોડ સ્કેન', stop_scan: 'કેમેરા બંધ', upload: 'કેમેરા નથી? બારકોડનો ફોટો અપલોડ કરો:',
-    category: 'શ્રેણી', ask_h: 'TruthShift ને પૂછો', ask_p: 'સાદા શબ્દોમાં પૂછો. જવાબ ફક્ત અમારા ડેટામાંથી આવે છે.',
-    ask_btn: 'પૂછો', use_loc: 'મારું સ્થાન', pick_area: 'અથવા તમારો વિસ્તાર પસંદ કરો',
-    why: 'આ સ્કોર કેમ?', better: 'તમારી પ્રાથમિકતા મુજબ વધુ સારા વિકલ્પ', best: 'તમારી પ્રાથમિકતા મુજબ આ શ્રેણીમાં આ જ શ્રેષ્ઠ છે.',
-    available: 'અહીં મળે છે', show_map: 'નકશા પર જુઓ', in_regina: 'રેજાઇનામાં', confidence: 'વિશ્વાસ', owner: 'માલિક',
-    backend_down: 'બેકએન્ડ ચાલુ નથી. backend ફોલ્ડરમાં ચલાવો: uvicorn app.main:app --port 8000',
   },
 }
 

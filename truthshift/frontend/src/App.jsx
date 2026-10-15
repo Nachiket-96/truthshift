@@ -24,7 +24,7 @@ export default function App() {
   const [meta, setMeta] = useState(null)
   const [stores, setStores] = useState([])
   const [weights, setWeights] = useState(() => load('weights', null))
-  const [lang, setLang] = useState(() => load('lang', 'en'))
+  const [lang, setLang] = useState(() => (LANGS[load('lang', 'en')] ? load('lang', 'en') : 'en'))
   const [tab, setTab] = useState('priorities')
   const [scored, setScored] = useState([])
   const [selectedId, setSelectedId] = useState(null)

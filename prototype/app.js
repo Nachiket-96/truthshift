@@ -20,9 +20,6 @@ const I18N = {
   fr: { title: "TruthShift", tab_priorities: "Mes priorités", tab_scan: "Scanner", tab_compare: "Comparer", tab_ask: "Demander", tab_map: "À proximité",
         prio_h: "Qu'est-ce qui compte pour vous ?", prio_p: "Chacun définit « éthique » différemment. Indiquez l'importance de chaque enjeu (0 = sans importance, 5 = très important).",
         presets: "Préréglages :", legend_h: "Comment lire nos informations", scan_btn: "Scanner", category: "Catégorie", ask_h: "Demandez à TruthShift", use_loc: "Ma position" },
-  gu: { title: "TruthShift", tab_priorities: "મારી પ્રાથમિકતા", tab_scan: "સ્કેન અને શોધ", tab_compare: "સરખામણી", tab_ask: "પૂછો", tab_map: "નજીકમાં",
-        prio_h: "તમારા માટે શું મહત્વનું છે?", prio_p: "દરેક વ્યક્તિ માટે 'નૈતિક'નો અર્થ જુદો છે. દરેક મુદ્દો કેટલો મહત્વનો છે તે પસંદ કરો (0 = મહત્વ નથી, 5 = ખૂબ મહત્વનું).",
-        presets: "ઝડપી પસંદગી:", legend_h: "માહિતી કેવી રીતે વાંચવી", scan_btn: "બારકોડ સ્કેન", category: "શ્રેણી", ask_h: "TruthShift ને પૂછો", use_loc: "મારું સ્થાન" },
 };
 const EN = Object.fromEntries($$("[data-i18n]").map(el => [el.dataset.i18n, el.textContent]));
 function applyLang(lang) {
@@ -267,7 +264,7 @@ async function askAI(question) {
   const sample = await samplePromise;
   const out = $("#aiOut");
   if (!sample || !out) return;
-  const langName = { en: "English", fr: "French", gu: "Gujarati" }[$("#lang").value] || "English";
+  const langName = { en: "English", fr: "French" }[$("#lang").value] || "English";
   askCtl?.abort();
   const ctl = askCtl = new AbortController();
   out.innerHTML = `<div class="card ai"><div class="tag">Claude's answer</div><div class="ai-text">Thinking…</div></div>`;

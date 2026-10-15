@@ -117,8 +117,8 @@ async function iconCircle(s, name, x, y, d, bg, fg, objectName) {
   // ---------- 4. Newcomers ----------
   {
     const s = add("CONTENT", "Why", "Built for newcomers to Regina",
-      "RODS serves newcomers, so we designed for them. Their language: English, French and Gujarati screens, and the AI answers in the chosen language. Their budget: affordability is a priority like any other, and every better option shows the price difference. Their city: Regina stores on a map, local businesses, and Regina’s blue and green cart recycling rules.");
-    const cols = [["LuLanguages", "3 languages", "English · Français · ગુજરાતી"], ["LuWallet", "Real budgets", "Price is a priority too"], ["LuMapPin", "Regina stores", "Local shops on a map"]];
+      "RODS serves newcomers, so we designed for them. Their language: English and French screens, and the AI answers in the chosen language. Their budget: affordability is a priority like any other, and every better option shows the price difference. Their city: Regina stores on a map, local businesses, and Regina’s blue and green cart recycling rules.");
+    const cols = [["LuLanguages", "2 languages", "English · Français"], ["LuWallet", "Real budgets", "Price is a priority too"], ["LuMapPin", "Regina stores", "Local shops on a map"]];
     for (let i = 0; i < cols.length; i++) {
       const x = M + i * 3.07;
       await iconCircle(s, cols[i][0], x + 0.78, 1.6, 1.3, HEX.accent, "FFFFFF", `newcomer-${i + 1}`);
@@ -179,7 +179,7 @@ async function iconCircle(s, name, x, y, d, bg, fg, objectName) {
   pres.addSection({ title: "Demo" });
   {
     const s = add("CONTENT", "Demo", "Live demo",
-      "Demo script. 1: Priorities tab, Buy Canadian preset, switch language to Gujarati. 2: Scan tab, search peanut, open Prairie Creamy Peanut Butter: 76, medium confidence, point at the evidence badges and the Made in Canada tier. 3: Compare tab, Coffee: well-documented products first, limited-data products last. 4: Ask tab: Canadian, no plastic, fair labour, which coffee? 5: Nearby tab: stores and distances. 6: type the real barcode 3017620422003 for a live Open Food Facts lookup. Backup if the internet fails: everything except the live lookup runs locally.");
+      "Demo script. 1: Priorities tab, Buy Canadian preset, switch language to French. 2: Scan tab, search peanut, open Prairie Creamy Peanut Butter: 76, medium confidence, point at the evidence badges and the Made in Canada tier. 3: Compare tab, Coffee: well-documented products first, limited-data products last. 4: Ask tab: Canadian, no plastic, fair labour, which coffee? 5: Nearby tab: stores and distances. 6: type the real barcode 3017620422003 for a live Open Food Facts lookup. Backup if the internet fails: everything except the live lookup runs locally.");
     const tiles = [["priorities", "Priorities"], ["compare", "Compare"], ["ask", "Ask"], ["nearby", "Nearby"]];
     tiles.forEach(([name, label], i) => {
       const x = 1.22 + (i % 2) * 3.98, y = 1.2 + Math.floor(i / 2) * 2.02;
