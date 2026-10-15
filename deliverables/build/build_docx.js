@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const {
   Document, Packer, Paragraph, TextRun, HeadingLevel, Table, TableRow, TableCell, WidthType, ShadingType,
-  AlignmentType, ImageRun, LevelFormat, BorderStyle, Footer, PageNumber, TableOfContents,
+  AlignmentType, ImageRun, LevelFormat, BorderStyle, Footer, PageNumber, TableOfContents, ExternalHyperlink,
 } = require("docx");
 
 const OUT = path.resolve(__dirname, "..", "TruthShift_Documentation.docx");
@@ -13,14 +13,16 @@ const CONTENT_W = 9360; // US Letter, 1" margins
 // ---------- helpers ----------
 const runs = text => {
   // **bold** and `code` inline markup
-  return text.split(/(\*\*[^*]+\*\*|`[^`]+`)/).filter(Boolean).map(part =>
-    part.startsWith("**") ? new TextRun({ text: part.slice(2, -2), bold: true })
+  return text.split(/(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\([^)]+\))/).filter(Boolean).map(part =>
+    part.startsWith("[") && part.includes("](") ? new ExternalHyperlink({ link: part.slice(part.indexOf("](") + 2, -1),
+      children: [new TextRun({ text: part.slice(1, part.indexOf("](")), style: "Hyperlink", color: C.accent, underline: {} })] })
+    : part.startsWith("**") ? new TextRun({ text: part.slice(2, -2), bold: true })
       : part.startsWith("`") ? new TextRun({ text: part.slice(1, -1), font: "Consolas", size: 20 })
         : new TextRun(part));
 };
 const P = (text, opts = {}) => new Paragraph({ children: runs(text), spacing: { after: 140 }, ...opts });
-const H1 = text => new Paragraph({ text, heading: HeadingLevel.HEADING_1 });
-const H2 = text => new Paragraph({ text, heading: HeadingLevel.HEADING_2 });
+const H1 = text => new Paragraph({ text, heading: HeadingLevel.HEADING_1, keepNext: true });
+const H2 = text => new Paragraph({ text, heading: HeadingLevel.HEADING_2, keepNext: true });
 const bullet = text => new Paragraph({ children: runs(text), numbering: { reference: "bullets", level: 0 }, spacing: { after: 60 } });
 const numbered = text => new Paragraph({ children: runs(text), numbering: { reference: "numbers", level: 0 }, spacing: { after: 60 } });
 const code = lines => lines.map((l, i) => new Paragraph({
@@ -182,8 +184,42 @@ const children = [
   gap(),
   P("To test on a phone, run both servers on the laptop and open the laptop’s network address on port 5173 (Vite prints it). The phone camera needs https, so on a phone use the photo upload or type the barcode."),
 
-  // 8. Limitations
-  H1("8. Limitations and future work"),
+  // 8. Business model and costs
+  H1("8. Business model and running costs"),
+  P("TruthShift stays free for every shopper, because its main users are newcomers on tight budgets. One rule protects the app’s purpose: **money never changes a score**. Only evidence does."),
+  H2("How it is paid for"),
+  table([2200, 3100, 4060], [
+    ["Source", "Who pays", "How it works"],
+    ["Grants", "Settlement agencies, City of Regina, community foundations", "The app supports newcomer integration and local business, which matches their funding goals"],
+    ["Verified listings", "Local Regina businesses", "A business pays to have its claims checked (ownership, certifications). If the evidence holds, the fact changes from Claimed to Verified. Paying never raises a score."],
+    ["TruthShift Plus (future)", "Shoppers who want extra features", "Optional subscription, proposed at about $3 a month; free for RODS clients through a sponsorship"],
+  ]),
+  H2("Free vs Plus (proposal)"),
+  table([4680, 4680], [
+    ["Free (for everyone, always)", "TruthShift Plus (~$3/month, proposed)"],
+    ["Scanning and personal scores", "Unlimited AI assistant"],
+    ["Evidence label on every fact", "Shopping-list planner that finds the best store"],
+    ["Compare, store map, all languages", "Price-drop alerts from store flyers"],
+    ["A few AI questions a day", "Family profiles"],
+  ]),
+  gap(),
+  P("Today every feature is free and there is no limit on AI questions; the Plus features and the daily limit are proposals to test with users."),
+  H2("Running costs (USD per month, October 2026)"),
+  table([3000, 2000, 4360], [
+    ["Item", "Cost", "Notes"],
+    ["Frontend hosting", "$0", "React app as a free static site"],
+    ["Backend hosting", "$7", "Render Starter web service (0.5 CPU, 512 MB)"],
+    ["Domain (.ca)", "~$1", "About $8–10 a year"],
+    ["Product data", "$0", "Open Food Facts (open data, ODbL)"],
+    ["Maps", "$0 to start", "OpenStreetMap; at higher traffic a provider such as MapTiler (free up to 5,000 sessions a month, non-commercial)"],
+    ["AI answers", "~$0.02 per question", "Claude (claude-opus-5-5) with prompt caching; each question sends about 12,000 tokens of product data"],
+  ]),
+  gap(),
+  P("That is about **$8 a month to launch**, about **$28 a month** with 1,000 AI questions, and about **$208 a month** with 10,000. The AI is the only cost that grows with use, which is why unlimited AI is the Plus feature. These are estimates from public prices; check them before launch."),
+  P("Sources: [Render pricing](https://render.com/articles/how-much-does-cloud-application-hosting-cost-for-small-businesses), [MapTiler Cloud pricing](https://www.maptiler.com/cloud/pricing/), [.ca domain prices](https://domainoffer.net/tld/ca), Claude API pricing (Anthropic)."),
+
+  // 9. Limitations
+  H1("9. Limitations and future work"),
   P("The biggest limitation is data: most product facts are synthetic, so the scores demonstrate the method rather than judge real brands."),
   bullet("**Synthetic products.** All 46 demo products use fictional brands; certifications, ownership and prices are invented. Real products from Open Food Facts carry only crowd-sourced facts, no prices and no store availability."),
   bullet("**Approximate locations.** Store coordinates are approximate, and three independent grocers are fictional."),

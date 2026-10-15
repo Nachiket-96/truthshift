@@ -237,7 +237,75 @@ async function iconCircle(s, name, x, y, d, bg, fg, objectName) {
     });
   }
 
-  // ---------- 11. Next ----------
+  // ---------- 11. Sustainability model ----------
+  pres.addSection({ title: "Business model" });
+  {
+    const s = add("CONTENT", "Business model", "Free for every shopper",
+      "TruthShift stays free for shoppers, because our users are newcomers on tight budgets. Three ways to pay for it. One: grants from settlement agencies, the City of Regina and community foundations, because the app supports newcomer integration and local business. Two: verified listings, where a local Regina business pays to have its claims checked, for example its ownership or a certification. If the evidence holds, the fact turns from Claimed to Verified. Paying never raises a score; only evidence does. Three: an optional TruthShift Plus subscription for extra features. The rule on the slide is the one that matters: money never changes a score.");
+    const cols = [["LuHandshake", "Grants", "Settlement & city funding"], ["LuBadgeCheck", "Verified listings", "Local businesses pay for checks"], ["LuSparkles", "TruthShift Plus", "Optional premium features"]];
+    for (let i = 0; i < cols.length; i++) {
+      const x = M + i * 3.07;
+      await iconCircle(s, cols[i][0], x + 0.83, 1.35, 1.2, HEX.accent, "FFFFFF", `model-${i + 1}`);
+      text(s, cols[i][1], { x, y: 2.7, w: 2.86, h: 0.45, fontSize: 20, bold: true, color: HEX.dark, align: "center" });
+      text(s, cols[i][2], { x, y: 3.15, w: 2.86, h: 0.4, fontSize: 14, color: HEX.soft, align: "center" });
+    }
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 2.25, y: 4.05, w: 5.5, h: 0.65, rectRadius: 0.32, fill: { color: HEX.dark }, line: { color: HEX.dark }, objectName: "rule-pill" });
+    text(s, "Money never changes a score", { x: 2.25, y: 4.05, w: 5.5, h: 0.65, fontSize: 20, bold: true, color: HEX.mint, align: "center", valign: "middle" });
+  }
+
+  // ---------- 12. Free vs Plus ----------
+  {
+    const s = add("CONTENT", "Business model", "Free today. Plus tomorrow.",
+      "Everything in the app today stays free: scanning, personal scores with evidence, compare, the store map, all languages, and a few AI questions a day. A future TruthShift Plus, proposed at about 3 dollars a month, would add unlimited AI questions, a shopping-list planner that finds the best store, price-drop alerts from flyers, and family profiles. RODS clients could get Plus free through a sponsorship. The price is a proposal, to test with users.");
+    const plans = [
+      { name: "Free", price: "$0", note: "for everyone, always", fill: HEX.card, ink: HEX.dark, sub: HEX.soft, iconBg: HEX.tint, iconFg: HEX.accent,
+        items: [["LuScanLine", "Scan & personal scores"], ["LuShieldCheck", "Evidence on every fact"], ["LuMapPin", "Compare & store map"], ["LuMessageCircle", "5 AI questions a day"]] },
+      { name: "TruthShift Plus", price: "~$3/mo", note: "proposed · free for RODS clients", fill: HEX.dark, ink: HEX.light, sub: HEX.mintText, iconBg: HEX.darkCard, iconFg: HEX.mint,
+        items: [["LuSparkles", "Unlimited AI assistant"], ["LuStore", "Best-store shopping list"], ["LuTag", "Price-drop alerts"], ["LuUsers", "Family profiles"]] },
+    ];
+    for (let i = 0; i < plans.length; i++) {
+      const p = plans[i], x = M + i * 4.6;
+      s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y: 1.25, w: 4.4, h: 3.7, rectRadius: 0.12, fill: { color: p.fill }, line: { color: i ? p.fill : HEX.line, width: 0.75 }, shadow: shadow(), objectName: `plan-${i + 1}` });
+      text(s, p.name, { x: x + 0.3, y: 1.45, w: 2.4, h: 0.45, fontSize: 20, bold: true, color: p.ink });
+      text(s, p.price, { x: x + 2.4, y: 1.4, w: 1.75, h: 0.55, fontSize: 26, bold: true, color: i ? HEX.mint : HEX.accent, align: "right", fontFace: THEME.headFontFace });
+      text(s, p.note, { x: x + 0.3, y: 1.92, w: 3.85, h: 0.3, fontSize: 12, color: p.sub });
+      for (let k = 0; k < p.items.length; k++) {
+        const y = 2.4 + k * 0.6;
+        await iconCircle(s, p.items[k][0], x + 0.3, y, 0.45, p.iconBg, p.iconFg, `plan-${i + 1}-item-${k + 1}`);
+        text(s, p.items[k][1], { x: x + 0.9, y, w: 3.3, h: 0.45, fontSize: 15, color: p.ink, valign: "middle" });
+      }
+    }
+  }
+
+  // ---------- 13. Running costs ----------
+  {
+    const s = add("CONTENT", "Business model", "About $8 a month to launch",
+      "Running costs in US dollars per month, checked October 2026. Hosting: the React app as a free static site, the FastAPI backend on a Render Starter instance at 7 dollars a month. A .ca domain is about 10 dollars a year, so about 1 dollar a month. Open Food Facts and OpenStreetMap data are free; for heavy map traffic we would move to a map provider such as MapTiler, which is free up to 5,000 sessions a month for non-commercial use. The AI is the only cost that grows with use: about 2 cents per question on Claude with prompt caching, because each question sends about 12,000 tokens of product data. So 1,000 AI questions a month cost about 20 dollars, 10,000 about 200. That is why unlimited AI is the Plus feature.");
+    const scen = ["Pilot (no AI)", "1,000 AI questions", "10,000 AI questions"];
+    s.addChart(pres.charts.BAR, [
+      { name: "Hosting (Render)", labels: scen, values: [7, 7, 7] },
+      { name: "Domain (.ca)", labels: scen, values: [1, 1, 1] },
+      { name: "AI answers (Claude)", labels: scen, values: [0, 20, 200] },
+    ], {
+      x: M, y: 1.2, w: 5.9, h: 3.85, barDir: "col", barGrouping: "stacked", barGapWidthPct: 70,
+      chartColors: [HEX.accent, HEX.mint, HEX.amber],
+      showValue: false,
+      catAxisLabelColor: HEX.dark, catAxisLabelFontSize: 12, catAxisLabelFontFace: "+mn-lt",
+      valAxisLabelColor: HEX.soft, valAxisLabelFontSize: 11, valAxisLabelFontFace: "+mn-lt", valAxisLabelFormatCode: "$0",
+      valAxisMinVal: 0, valAxisMaxVal: 220, valAxisMajorUnit: 50, valGridLine: { color: "DDE3DE", size: 0.5 }, catGridLine: { style: "none" },
+      showLegend: true, legendPos: "t", legendFontSize: 12, legendColor: HEX.soft, legendFontFace: "+mn-lt",
+      objectName: "running-cost-chart",
+    });
+    const totals = [["~$8", "per month to launch"], ["~$28", "with 1,000 AI questions"], ["Free", "Open Food Facts · OpenStreetMap"]];
+    totals.forEach(([n, l], i) => {
+      const y = 1.35 + i * 1.2;
+      text(s, n, { x: 6.7, y, w: 2.8, h: 0.6, fontSize: 32, bold: true, color: i === 2 ? HEX.accent : HEX.dark, fontFace: THEME.headFontFace });
+      text(s, l, { x: 6.7, y: y + 0.6, w: 2.8, h: 0.35, fontSize: 13, color: HEX.soft });
+    });
+    text(s, "USD, October 2026 prices. Estimates; check before launch.", { x: 6.7, y: 4.75, w: 2.8, h: 0.3, fontSize: 10, italic: true, color: HEX.muted });
+  }
+
+  // ---------- 14. Next ----------
   pres.addSection({ title: "Next" });
   {
     const s = add("CONTENT", "Next", "What’s next",
