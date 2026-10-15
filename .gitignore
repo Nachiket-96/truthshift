@@ -9,3 +9,5 @@ __pycache__/
 
 # Challenge brief photos (kept local)
 *.jpg
+!deliverables/build/shots/*_crop.jpg
+deliverables/build/shots/*.png

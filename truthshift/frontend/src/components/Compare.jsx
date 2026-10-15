@@ -7,7 +7,8 @@ export default function Compare({ lang, meta, scored, onOpen }) {
   const keys = Object.keys(meta.factors)
   const rows = scored
     .filter(x => x.product.category === category)
-    .sort((a, b) => (b.result.score ?? -1) - (a.result.score ?? -1))
+    // Well-documented products first; "Limited data" products last so a few known facts can't top the list.
+    .sort((a, b) => (a.result.limitedData - b.result.limitedData) || ((b.result.score ?? -1) - (a.result.score ?? -1)))
 
   return (
     <section>
@@ -42,7 +43,7 @@ export default function Compare({ lang, meta, scored, onOpen }) {
           </tbody>
         </table>
       </div>
-      <p className="muted small">Sorted by <b>your</b> personal score. Cell icons: ✔ verified · ⚠ claimed · ? unknown · — not applicable. Hover a cell for the evidence.</p>
+      <p className="muted small">Sorted by <b>your</b> personal score; products with limited data are listed last. Cell icons: ✔ verified · ⚠ claimed · ? unknown · — not applicable. Hover a cell for the evidence.</p>
     </section>
   )
 }
