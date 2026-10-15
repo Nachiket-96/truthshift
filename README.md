@@ -2,30 +2,45 @@
 
 This is our project for the **RODS Tech Skills Showcase 2026** challenge, "The Ethical Consumer Compass" (Regina Open Door Society).
 
-The app scores grocery products against each shopper's own values: Buy Canadian, Support Regina, fair trade, animal welfare, environment, packaging and price. Every fact is labelled **Verified**, **Claimed** or **Unknown**, and unknown facts never count against a product.
+TruthShift scores grocery products against each shopper's own values: Buy Canadian, Support Regina, fair trade, animal welfare, environment, packaging and price. Every fact is labelled **Verified**, **Claimed** or **Unknown**, and unknown facts never count against a product.
+
+## Run it (2 steps)
+
+You need [Python 3.10+](https://www.python.org/downloads/) and [Node.js 20+](https://nodejs.org/) installed. On Windows, tick **"Add Python to PATH"** when installing Python.
+
+**Step 1: Download.** On this page click **Code → Download ZIP** and unzip it, or run:
+```bash
+git clone https://github.com/Nachiket-96/truthshift.git
+```
+
+**Step 2: Start.** Open the `truthshift` folder and double-click **`start.bat`** (Windows). On Mac or Linux, run `./start.sh` instead.
+- The first run installs packages, which takes a minute or two.
+- Two windows open: keep them open while you use the app.
+- The app opens at **https://localhost:5173**.
+- Your browser will say "Your connection is not private". This is expected for a local app: click **Advanced → Proceed**.
+
+## Open it on your Android phone (with camera scanning)
+
+1. Connect the phone to the **same Wi-Fi** as the laptop running TruthShift.
+2. In the **"TruthShift app"** window, find the line `Network: https://192.168.x.x:5173`.
+3. On the phone, open **Chrome** and type that exact address.
+4. Chrome warns "Your connection is not private": tap **Advanced → Proceed to …**.
+5. Go to **Scan**, tap **Scan barcode**, and **Allow** the camera.
+6. Optional: Chrome menu **⋮ → Add to Home screen** to get a TruthShift app icon.
+
+**If the phone can't open the page:**
+- Check that the laptop and phone are on the same Wi-Fi.
+- Allow Node.js through the Windows Firewall when Windows asks.
+- Some office or school networks block devices from talking to each other. A phone hotspot works as a fallback.
 
 ## What's in this repo
 
 | Folder | What it is |
 | --- | --- |
-| [`truthshift/`](truthshift/) | **The app**: React frontend and Python FastAPI backend, with run instructions in its README |
+| [`truthshift/`](truthshift/) | **The app**: React frontend and Python FastAPI backend |
 | [`deliverables/`](deliverables/) | PowerPoint presentation and Word documentation, plus the scripts that generate them |
-| [`prototype/`](prototype/) | First prototype: a single-page HTML/JS version with no install needed |
+| [`prototype/`](prototype/) | First prototype: a single-page HTML/JS version |
 | [`presentation/`](presentation/) | Source files of the online slide version |
-
-## Quick start
-
-```bash
-# Backend → http://localhost:8000 (API docs at /docs)
-cd truthshift/backend
-pip install -r requirements.txt
-uvicorn app.main:app --port 8000
-
-# Frontend → http://localhost:5173 (in a second terminal)
-cd truthshift/frontend
-npm install
-npm run dev
-```
 
 ## Data
 

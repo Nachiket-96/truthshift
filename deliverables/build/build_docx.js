@@ -165,10 +165,10 @@ const children = [
 
   // 7. Run
   H1("7. How to run and customize"),
-  P("You need two terminals: one for the backend and one for the frontend. Python 3.10+ and Node.js 20+ are required."),
+  P("**Easiest way:** double-click `truthshift/start.bat` on Windows (or run `./start.sh` on Mac/Linux). It installs packages the first time and starts both servers. Python 3.10+ and Node.js 20+ are required. To start them by hand, use two terminals:"),
   H2("Backend (API on http://localhost:8000, docs at /docs)"),
   ...code(["cd truthshift/backend", "pip install -r requirements.txt", "uvicorn app.main:app --port 8000"]),
-  H2("Frontend (app on http://localhost:5173)"),
+  H2("Frontend (app on https://localhost:5173)"),
   ...code(["cd truthshift/frontend", "npm install", "npm run dev"]),
   P("To turn on Claude’s written answers, set an Anthropic API key before starting the backend (PowerShell: `$env:ANTHROPIC_API_KEY=\"sk-ant-...\"`). Without a key, Ask TruthShift still works using the rule-based ranking."),
   table([3400, 4160, 1800], [
@@ -182,7 +182,7 @@ const children = [
     ["Priority presets", "frontend/src/components/Priorities.jsx", "Small"],
   ]),
   gap(),
-  P("To test on a phone, run both servers on the laptop and open the laptop’s network address on port 5173 (Vite prints it). The phone camera needs https, so on a phone use the photo upload or type the barcode."),
+  P("**On an Android phone:** connect the phone to the same Wi-Fi, open the `Network: https://…:5173` address that Vite prints in Chrome, tap Advanced → Proceed on the certificate warning, and allow the camera. The app is served over https with a local certificate, so live barcode scanning works. Chrome menu → Add to Home screen gives a TruthShift app icon."),
 
   // 8. Business model and costs
   H1("8. Business model and running costs"),

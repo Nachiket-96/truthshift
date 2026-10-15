@@ -9,7 +9,10 @@ Our project for the RODS Tech Skills Showcase 2026 challenge, "The Ethical Consu
 
 ## Run it
 
-Two terminals:
+**Easiest:** double-click `start.bat` (Windows) or run `./start.sh` (Mac/Linux). It installs packages the first time and starts both servers.
+The app opens at **https://localhost:5173**. Click **Advanced → Proceed** on the "not private" warning, which is expected for a local certificate.
+
+To start the servers by hand, use two terminals:
 
 ```bash
 # 1. Backend → http://localhost:8000  (interactive API docs: http://localhost:8000/docs)
@@ -17,11 +20,13 @@ cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --port 8000
 
-# 2. Frontend → http://localhost:5173
+# 2. Frontend → https://localhost:5173  (also on your Wi-Fi address for phones)
 cd frontend
 npm install
 npm run dev
 ```
+
+**On a phone:** open the `Network: https://…:5173` address that Vite prints, on the same Wi-Fi. The camera scanner works because the app is served over https. See the main README for step-by-step phone instructions.
 
 **Optional AI answers:** set an Anthropic API key before starting the backend:
 - PowerShell: `$env:ANTHROPIC_API_KEY="sk-ant-..."`
