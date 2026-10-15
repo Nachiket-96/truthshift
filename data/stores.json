@@ -1,0 +1,72 @@
+[
+  {
+    "id": "s1",
+    "name": "Superstore – Victoria Ave E",
+    "lat": 50.4458,
+    "lng": -104.5445,
+    "owner": "National chain"
+  },
+  {
+    "id": "s2",
+    "name": "Sobeys – South Albert",
+    "lat": 50.4135,
+    "lng": -104.618,
+    "owner": "National chain"
+  },
+  {
+    "id": "s3",
+    "name": "Regina Farmers' Market (downtown)",
+    "lat": 50.449,
+    "lng": -104.6105,
+    "owner": "Local vendors"
+  },
+  {
+    "id": "s4",
+    "name": "Co-op – Harbour Landing",
+    "lat": 50.4175,
+    "lng": -104.6745,
+    "owner": "SK co-operative"
+  },
+  {
+    "id": "s5",
+    "name": "Walmart – North Regina",
+    "lat": 50.4955,
+    "lng": -104.642,
+    "owner": "Multinational"
+  },
+  {
+    "id": "s6",
+    "name": "Spice Bazaar (independent grocer)",
+    "lat": 50.4565,
+    "lng": -104.631,
+    "owner": "Regina-owned"
+  },
+  {
+    "id": "s7",
+    "name": "Save-On-Foods – Normanview",
+    "lat": 50.462,
+    "lng": -104.676,
+    "owner": "Western Canadian chain"
+  },
+  {
+    "id": "s8",
+    "name": "Costco – East Regina",
+    "lat": 50.443,
+    "lng": -104.535,
+    "owner": "Multinational"
+  },
+  {
+    "id": "s9",
+    "name": "Little Africa Market (independent)",
+    "lat": 50.452,
+    "lng": -104.618,
+    "owner": "Regina-owned"
+  },
+  {
+    "id": "s10",
+    "name": "Golden Lotus Asian Grocery (independent)",
+    "lat": 50.4485,
+    "lng": -104.628,
+    "owner": "Regina-owned"
+  }
+]

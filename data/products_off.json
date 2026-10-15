@@ -1,0 +1,4106 @@
+[
+  {
+    "id": "off-0055000132152",
+    "barcode": "0055000132152",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "Instant Coffee",
+    "brand": "Nescafe",
+    "price": null,
+    "size": "475 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "claimed",
+        "note": "Listed manufacturing place / origin: brazil Brazil",
+        "source": "Open Food Facts (community data)"
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Packaging listed: en:metal metal",
+        "source": "Open Food Facts (community data)"
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055000132152"
+  },
+  {
+    "id": "off-0627843892786",
+    "barcode": "0627843892786",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "protein coffee",
+    "brand": "brüst",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 70,
+        "status": "claimed",
+        "note": "Listed manufacturing place / origin: Canada",
+        "source": "Open Food Facts (community data)"
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0627843892786"
+  },
+  {
+    "id": "off-0055000377768",
+    "barcode": "0055000377768",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "NESCAFE GOLD ESPRESSO",
+    "brand": "NESCAFE",
+    "price": null,
+    "size": "100 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055000377768"
+  },
+  {
+    "id": "off-0066188004698",
+    "barcode": "0066188004698",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "Instant Coffee,Original Roast",
+    "brand": "maxwell house",
+    "price": null,
+    "size": "150gr",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 70,
+        "status": "claimed",
+        "note": "Listed manufacturing place / origin: Canada",
+        "source": "Open Food Facts (community data)"
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0066188004698"
+  },
+  {
+    "id": "off-0055000001205",
+    "barcode": "0055000001205",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "NESCAFÉ RICH",
+    "brand": "NESCAFÉ",
+    "price": null,
+    "size": "100 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "claimed",
+        "note": "Listed manufacturing place / origin: Brazil",
+        "source": "Open Food Facts (community data)"
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055000001205"
+  },
+  {
+    "id": "off-0055000377744",
+    "barcode": "0055000377744",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "Gold medium roast instant coffee",
+    "brand": "Nestlé",
+    "price": null,
+    "size": "100 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Packaging listed: en:aluminium-seal en:glass-jar en:pp-5-polypropylene-lid glass:jar, pp-5-polypropylene:lid",
+        "source": "Open Food Facts (community data)"
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055000377744"
+  },
+  {
+    "id": "off-0628110294449",
+    "barcode": "0628110294449",
+    "emoji": "🥜",
+    "category": "Peanut butter",
+    "name": "Beurre d’arachide",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0628110294449"
+  },
+  {
+    "id": "off-3700019507220",
+    "barcode": "3700019507220",
+    "emoji": "🥜",
+    "category": "Peanut butter",
+    "name": "Bonmafé",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "500 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/3700019507220"
+  },
+  {
+    "id": "off-0628915641721",
+    "barcode": "0628915641721",
+    "emoji": "🥜",
+    "category": "Peanut butter",
+    "name": "Smooth peanut butter",
+    "brand": "Great Value",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0628915641721"
+  },
+  {
+    "id": "off-0055742348279",
+    "barcode": "0055742348279",
+    "emoji": "🥜",
+    "category": "Peanut butter",
+    "name": "Smooth Peanut Butter",
+    "brand": "Compliments",
+    "price": null,
+    "size": "500 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055742348279"
+  },
+  {
+    "id": "off-0060383708832",
+    "barcode": "0060383708832",
+    "emoji": "🥜",
+    "category": "Peanut butter",
+    "name": "Crunchy Peanut Butter",
+    "brand": "PC Organics",
+    "price": null,
+    "size": "500 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Label(s) recorded: low-or-no-salt organic kosher no-preservatives canada-organic cor-kosher no-added-salt no-added-sugar",
+        "source": "Open Food Facts (community data)"
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0060383708832"
+  },
+  {
+    "id": "off-0051500451632",
+    "barcode": "0051500451632",
+    "emoji": "🥜",
+    "category": "Peanut butter",
+    "name": "Creamy Dark Roast Peanut Butter",
+    "brand": "Jif",
+    "price": null,
+    "size": "500 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0051500451632"
+  },
+  {
+    "id": "off-16999299",
+    "barcode": "16999299",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "Cocobar Chocolate",
+    "brand": "Coconama",
+    "price": null,
+    "size": "100 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 15,
+        "status": "claimed",
+        "note": "Eco-Score E (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/16999299"
+  },
+  {
+    "id": "off-0855827001798",
+    "barcode": "0855827001798",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "Chocolate Dark Pink Salt",
+    "brand": "Flagrants Désirs",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 15,
+        "status": "claimed",
+        "note": "Eco-Score E (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0855827001798"
+  },
+  {
+    "id": "off-0743434013672",
+    "barcode": "0743434013672",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "Milk Chocolate with hazelnuts",
+    "brand": "Lindt",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 15,
+        "status": "claimed",
+        "note": "Eco-Score E (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0743434013672"
+  },
+  {
+    "id": "off-7630039689254",
+    "barcode": "7630039689254",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "Dark Chocolate 70% cocoa",
+    "brand": "Nespresso",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 15,
+        "status": "claimed",
+        "note": "Eco-Score E (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/7630039689254"
+  },
+  {
+    "id": "off-0037466022031",
+    "barcode": "0037466022031",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "Lindt Excellence Caramel Croquant",
+    "brand": "Lindt",
+    "price": null,
+    "size": "100g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 15,
+        "status": "claimed",
+        "note": "Eco-Score E (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0037466022031"
+  },
+  {
+    "id": "off-0065633455719",
+    "barcode": "0065633455719",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "Creamy Deluxe Chocolate Frosting",
+    "brand": "Betty Crocker",
+    "price": null,
+    "size": "450 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0065633455719"
+  },
+  {
+    "id": "off-4897878140022",
+    "barcode": "4897878140022",
+    "emoji": "🍝",
+    "category": "Pasta",
+    "name": "Nissin Demae Ramen Chicken Flavour",
+    "brand": "Nissin",
+    "price": null,
+    "size": "100 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/4897878140022"
+  },
+  {
+    "id": "off-3252970780117",
+    "barcode": "3252970780117",
+    "emoji": "🍝",
+    "category": "Pasta",
+    "name": "Épinettes",
+    "brand": "Alpina",
+    "price": null,
+    "size": "500 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/3252970780117"
+  },
+  {
+    "id": "off-8851876000432",
+    "barcode": "8851876000432",
+    "emoji": "🍝",
+    "category": "Pasta",
+    "name": "Nouilles Singapore",
+    "brand": "Mama",
+    "price": null,
+    "size": "300 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/8851876000432"
+  },
+  {
+    "id": "off-0873976001254",
+    "barcode": "0873976001254",
+    "emoji": "🍝",
+    "category": "Pasta",
+    "name": "Macaroni",
+    "brand": "Bravodeli",
+    "price": null,
+    "size": "350 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0873976001254"
+  },
+  {
+    "id": "off-0055742502466",
+    "barcode": "0055742502466",
+    "emoji": "🍝",
+    "category": "Pasta",
+    "name": "Spicy chicken flavour instant noodles in a cup",
+    "brand": "Compliments",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055742502466"
+  },
+  {
+    "id": "off-6935270641858",
+    "barcode": "6935270641858",
+    "emoji": "🍝",
+    "category": "Pasta",
+    "name": "Artificial pork bone soup flavor instant noodle",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/6935270641858"
+  },
+  {
+    "id": "off-87260403",
+    "barcode": "87260403",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Brown lentils",
+    "brand": "Agro Fusion",
+    "price": null,
+    "size": "4 kg",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Label(s) recorded: no-gluten vegetarian vegan no-nuts no-peanuts product-of-canada",
+        "source": "Open Food Facts (community data)"
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/87260403"
+  },
+  {
+    "id": "off-00342803",
+    "barcode": "00342803",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Eat Well",
+    "brand": "Marks & Spencer",
+    "price": null,
+    "size": "300 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/00342803"
+  },
+  {
+    "id": "off-0679339000403",
+    "barcode": "0679339000403",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Crunchy Roasted Lentils Sea Salt",
+    "brand": "three farmers",
+    "price": null,
+    "size": "5 oz (140g)",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0679339000403"
+  },
+  {
+    "id": "off-9000480",
+    "barcode": "9000480",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Lentilles vertes",
+    "brand": "goodfood",
+    "price": null,
+    "size": "900 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/9000480"
+  },
+  {
+    "id": "off-0850195000091",
+    "barcode": "0850195000091",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Green Lentils",
+    "brand": "The For Good Foundation",
+    "price": null,
+    "size": "907 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0850195000091"
+  },
+  {
+    "id": "off-0872632255246",
+    "barcode": "0872632255246",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Lentille béluga",
+    "brand": "Agro fusion",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0872632255246"
+  },
+  {
+    "id": "off-0059749930048",
+    "barcode": "0059749930048",
+    "emoji": "🍁",
+    "category": "Maple syrup",
+    "name": "Sirop d'Érable Foncé",
+    "brand": "Irrésistibles",
+    "price": null,
+    "size": "540 ml",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0059749930048"
+  },
+  {
+    "id": "off-0059749873611",
+    "barcode": "0059749873611",
+    "emoji": "🍁",
+    "category": "Maple syrup",
+    "name": "Maple Syrup",
+    "brand": "Selection",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0059749873611"
+  },
+  {
+    "id": "off-0065928546252",
+    "barcode": "0065928546252",
+    "emoji": "🍁",
+    "category": "Maple syrup",
+    "name": "Mapple Syrup - Sirop d'erable",
+    "brand": "Turkey Hill",
+    "price": null,
+    "size": "250 ml",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0065928546252"
+  },
+  {
+    "id": "off-0094922876546",
+    "barcode": "0094922876546",
+    "emoji": "🍁",
+    "category": "Maple syrup",
+    "name": "Gâteries à l'érable du Canada",
+    "brand": "Cocomira",
+    "price": null,
+    "size": "3 produits, 155 g au total",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0094922876546"
+  },
+  {
+    "id": "off-0064597009532",
+    "barcode": "0064597009532",
+    "emoji": "🍁",
+    "category": "Maple syrup",
+    "name": "Maple syrup",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0064597009532"
+  },
+  {
+    "id": "off-0060383692186",
+    "barcode": "0060383692186",
+    "emoji": "🍁",
+    "category": "Maple syrup",
+    "name": "100% Pure Maple Syrup",
+    "brand": "President's Choice",
+    "price": null,
+    "size": "375 mL",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Label(s) recorded: organic kosher canada-organic cor-kosher certified-by-quality-assurance-international",
+        "source": "Open Food Facts (community data)"
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No Eco-Score.",
+        "source": ""
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0060383692186"
+  },
+  {
+    "id": "off-0676299031003",
+    "barcode": "0676299031003",
+    "emoji": "🍯",
+    "category": "Honey",
+    "name": "Honey",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0676299031003"
+  },
+  {
+    "id": "off-0736211346476",
+    "barcode": "0736211346476",
+    "emoji": "🍯",
+    "category": "Honey",
+    "name": "Miel de fleurs sauvages non pasteurise",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0736211346476"
+  },
+  {
+    "id": "off-0063829170088",
+    "barcode": "0063829170088",
+    "emoji": "🍯",
+    "category": "Honey",
+    "name": "Miel crémeux non pasteurisé",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0063829170088"
+  },
+  {
+    "id": "off-9421003261921",
+    "barcode": "9421003261921",
+    "emoji": "🍯",
+    "category": "Honey",
+    "name": "Miel de Manuka",
+    "brand": "Comvita",
+    "price": null,
+    "size": "1kg",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/9421003261921"
+  },
+  {
+    "id": "off-0063829150080",
+    "barcode": "0063829150080",
+    "emoji": "🍯",
+    "category": "Honey",
+    "name": "Miel",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0063829150080"
+  },
+  {
+    "id": "off-5220400060",
+    "barcode": "5220400060",
+    "emoji": "🍯",
+    "category": "Honey",
+    "name": "Raw Organic Honey",
+    "brand": "Honey Bunny",
+    "price": null,
+    "size": "500g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Label(s) recorded: organic",
+        "source": "Open Food Facts (community data)"
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/5220400060"
+  },
+  {
+    "id": "off-0064100778979",
+    "barcode": "0064100778979",
+    "emoji": "🥣",
+    "category": "Oats & cereal",
+    "name": "Mini wheats",
+    "brand": "Kellogg's",
+    "price": null,
+    "size": "700 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0064100778979"
+  },
+  {
+    "id": "off-0065633418011",
+    "barcode": "0065633418011",
+    "emoji": "🥣",
+    "category": "Oats & cereal",
+    "name": "Fibre 1 Grappes au miel",
+    "brand": "General Mills",
+    "price": null,
+    "size": "425g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 15,
+        "status": "claimed",
+        "note": "Eco-Score E (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0065633418011"
+  },
+  {
+    "id": "off-0064100590182",
+    "barcode": "0064100590182",
+    "emoji": "🥣",
+    "category": "Oats & cereal",
+    "name": "Corn flakes cereal",
+    "brand": "Kellogg's",
+    "price": null,
+    "size": "680g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Eco-Score C (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0064100590182"
+  },
+  {
+    "id": "off-0064100779068",
+    "barcode": "0064100779068",
+    "emoji": "🥣",
+    "category": "Oats & cereal",
+    "name": "Special K red berries",
+    "brand": "Kellogg's",
+    "price": null,
+    "size": "320 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0064100779068"
+  },
+  {
+    "id": "off-0055577105450",
+    "barcode": "0055577105450",
+    "emoji": "🥣",
+    "category": "Oats & cereal",
+    "name": "Croque Nature chocolat noir, canneberges et amendes",
+    "brand": "Quaker",
+    "price": null,
+    "size": "550 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055577105450"
+  },
+  {
+    "id": "off-0060383749415",
+    "barcode": "0060383749415",
+    "emoji": "🥣",
+    "category": "Oats & cereal",
+    "name": "Honey almond granola cereal",
+    "brand": "PC",
+    "price": null,
+    "size": "750 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Eco-Score B (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0060383749415"
+  },
+  {
+    "id": "off-0057174024400",
+    "barcode": "0057174024400",
+    "emoji": "🍵",
+    "category": "Tea",
+    "name": "thé Vert pur",
+    "brand": "Tetley",
+    "price": null,
+    "size": "48g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0057174024400"
+  },
+  {
+    "id": "off-0794522002214",
+    "barcode": "0794522002214",
+    "emoji": "🍵",
+    "category": "Tea",
+    "name": "Green Ginger Tea",
+    "brand": "Tazo",
+    "price": null,
+    "size": "20 tea bags (44 g)",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0794522002214"
+  },
+  {
+    "id": "off-0055742551457",
+    "barcode": "0055742551457",
+    "emoji": "🍵",
+    "category": "Tea",
+    "name": "Lemon Ginger Herbal Tea",
+    "brand": "Compliments",
+    "price": null,
+    "size": "20 bags, 40 g Net.",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055742551457"
+  },
+  {
+    "id": "off-0032917007605",
+    "barcode": "0032917007605",
+    "emoji": "🍵",
+    "category": "Tea",
+    "name": "Rstd Dandelion Root, Organic",
+    "brand": "Traditional Medicinals",
+    "price": null,
+    "size": "16 Wrapped Tea Bags, 1.5 g each, NET WT 24 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Label(s) recorded: organic kosher no-gmos usda-organic certified-b-corporation non-gmo-project",
+        "source": "Open Food Facts (community data)"
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0032917007605"
+  },
+  {
+    "id": "off-0076950209367",
+    "barcode": "0076950209367",
+    "emoji": "🍵",
+    "category": "Tea",
+    "name": "Chai Turmeric Revitalize (Canada)",
+    "brand": "Yogi",
+    "price": null,
+    "size": "32 g (1.12 oz) 16 x 2g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Label(s) recorded: organic kosher no-gmos usda-organic no-caffeine non-gmo-project orthodox-union-kosher certified-organic-by-qai coated-paper-wrappers compostable-tea-bags npn-80126078 paper-box",
+        "source": "Open Food Facts (community data)"
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0076950209367"
+  },
+  {
+    "id": "off-0794522002153",
+    "barcode": "0794522002153",
+    "emoji": "🍵",
+    "category": "Tea",
+    "name": "Zen • Green, Lemongrass & Spearmint",
+    "brand": "Tazo",
+    "price": null,
+    "size": "43 g • 20 Tea bags",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 90,
+        "status": "claimed",
+        "note": "Eco-Score A (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0794522002153"
+  },
+  {
+    "id": "off-3176582034485",
+    "barcode": "3176582034485",
+    "emoji": "🧀",
+    "category": "Cheese",
+    "name": "Brie",
+    "brand": "Ile de France",
+    "price": null,
+    "size": "230 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/3176582034485"
+  },
+  {
+    "id": "off-0068100895605",
+    "barcode": "0068100895605",
+    "emoji": "🧀",
+    "category": "Cheese",
+    "name": "Kraft Shredded Marble Cheese",
+    "brand": "Kraft",
+    "price": null,
+    "size": "320 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0068100895605"
+  },
+  {
+    "id": "off-0096619552801",
+    "barcode": "0096619552801",
+    "emoji": "🧀",
+    "category": "Cheese",
+    "name": "Fromage râpé",
+    "brand": "Kirkland",
+    "price": null,
+    "size": "625g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0096619552801"
+  },
+  {
+    "id": "off-0068100896503",
+    "barcode": "0068100896503",
+    "emoji": "🧀",
+    "category": "Cheese",
+    "name": "Whipped Cream Cheese Chive",
+    "brand": "Kraft",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0068100896503"
+  },
+  {
+    "id": "off-0063549991024",
+    "barcode": "0063549991024",
+    "emoji": "🧀",
+    "category": "Cheese",
+    "name": "Feta traditionel",
+    "brand": "Saputo",
+    "price": null,
+    "size": "200 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0063549991024"
+  },
+  {
+    "id": "off-0067400021400",
+    "barcode": "0067400021400",
+    "emoji": "🧀",
+    "category": "Cheese",
+    "name": "Fromage allegro",
+    "brand": "allegro",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0067400021400"
+  },
+  {
+    "id": "off-0059749888769",
+    "barcode": "0059749888769",
+    "emoji": "🌻",
+    "category": "Cooking oil",
+    "name": "Huile de canola",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Eco-Score C (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0059749888769"
+  },
+  {
+    "id": "off-0051500253557",
+    "barcode": "0051500253557",
+    "emoji": "🌻",
+    "category": "Cooking oil",
+    "name": "Huile de canola",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Eco-Score C (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0051500253557"
+  },
+  {
+    "id": "off-0065539001003",
+    "barcode": "0065539001003",
+    "emoji": "🌻",
+    "category": "Cooking oil",
+    "name": "Canola oil",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Eco-Score C (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0065539001003"
+  },
+  {
+    "id": "off-0061659019003",
+    "barcode": "0061659019003",
+    "emoji": "🌻",
+    "category": "Cooking oil",
+    "name": "Canola oil",
+    "brand": "Aurora",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Eco-Score C (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0061659019003"
+  },
+  {
+    "id": "off-0681131760140",
+    "barcode": "0681131760140",
+    "emoji": "🌻",
+    "category": "Cooking oil",
+    "name": "Huile de canola",
+    "brand": "Great Value",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Eco-Score C (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0681131760140"
+  },
+  {
+    "id": "off-0060383781620",
+    "barcode": "0060383781620",
+    "emoji": "🌻",
+    "category": "Cooking oil",
+    "name": "Canola Oil",
+    "brand": "Sans nom",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Eco-Score C (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0060383781620"
+  },
+  {
+    "id": "off-0055742525755",
+    "barcode": "0055742525755",
+    "emoji": "🥛",
+    "category": "Milk",
+    "name": "low fat sweetened condensed milk",
+    "brand": "compliments",
+    "price": null,
+    "size": "300 ml",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055742525755"
+  },
+  {
+    "id": "off-0068700100215",
+    "barcode": "0068700100215",
+    "emoji": "🥛",
+    "category": "Milk",
+    "name": "1% M.F. Strawberry Partly Skimmed Milk",
+    "brand": "Milk 2 Go",
+    "price": null,
+    "size": "473 mL",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 15,
+        "status": "claimed",
+        "note": "Eco-Score E (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0068700100215"
+  },
+  {
+    "id": "off-0062229010048",
+    "barcode": "0062229010048",
+    "emoji": "🥛",
+    "category": "Milk",
+    "name": "One percent partly skimmed milk",
+    "brand": "Unknown brand",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0062229010048"
+  },
+  {
+    "id": "off-0068200010045",
+    "barcode": "0068200010045",
+    "emoji": "🥛",
+    "category": "Milk",
+    "name": "Lait",
+    "brand": "Lactantia",
+    "price": null,
+    "size": "",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0068200010045"
+  },
+  {
+    "id": "off-0066800000152",
+    "barcode": "0066800000152",
+    "emoji": "🥛",
+    "category": "Milk",
+    "name": "2% M.F. Fresh Partly Skimmed Milk",
+    "brand": "Neilson",
+    "price": null,
+    "size": "4 L",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Eco-Score C (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0066800000152"
+  },
+  {
+    "id": "off-0055300111017",
+    "barcode": "0055300111017",
+    "emoji": "🥛",
+    "category": "Milk",
+    "name": "2% M.F. Partly Skimmed Milk",
+    "brand": "Beatrice",
+    "price": null,
+    "size": "4 L",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Manufacturing place not listed.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Local ownership not known.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade label recorded. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare label recorded.",
+        "source": ""
+      },
+      "environment": {
+        "score": 35,
+        "status": "claimed",
+        "note": "Eco-Score D (computed from community data).",
+        "source": "Open Food Facts (community data)"
+      },
+      "packaging": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packaging not listed.",
+        "source": ""
+      }
+    },
+    "recycling": "Check the City of Regina waste guide for this packaging.",
+    "stores": [],
+    "source": "openfoodfacts",
+    "sourceUrl": "https://world.openfoodfacts.org/product/0055300111017"
+  }
+]

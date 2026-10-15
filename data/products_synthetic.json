@@ -1,0 +1,2751 @@
+[
+  {
+    "id": "p1",
+    "barcode": "0628000000011",
+    "emoji": "🥜",
+    "category": "Peanut butter",
+    "name": "Prairie Creamy Peanut Butter",
+    "brand": "Prairie Pantry",
+    "price": 5.49,
+    "size": "1 kg",
+    "owner": {
+      "name": "Prairie Pantry Ltd. (Regina, SK)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 70,
+        "status": "verified",
+        "note": "Roasted & packed in Regina. Peanuts are imported from the USA (peanuts aren't grown commercially in Canada).",
+        "source": "SK business registry + label"
+      },
+      "local": {
+        "score": 100,
+        "status": "verified",
+        "note": "Regina-owned and operated.",
+        "source": "SK corporate registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No fair-trade certification found. This does NOT mean unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 60,
+        "status": "claimed",
+        "note": "Company says it uses palm-oil-free recipe.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 80,
+        "status": "claimed",
+        "note": "Glass jar with metal lid.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Glass jar + metal lid → Regina blue cart (rinse first).",
+    "stores": [
+      "s3",
+      "s4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p2",
+    "barcode": "0628000000028",
+    "emoji": "🥜",
+    "category": "Peanut butter",
+    "name": "Golden Spread Smooth",
+    "brand": "Golden Spread",
+    "price": 4.29,
+    "size": "1 kg",
+    "owner": {
+      "name": "Golden Foods Inc. (parent company in USA)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 40,
+        "status": "verified",
+        "note": "Made in a Canadian plant, but the parent company is US-owned and peanuts are imported.",
+        "source": "Public company filings"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No certification found.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 40,
+        "status": "claimed",
+        "note": "Company sustainability report mentions energy reduction targets.",
+        "source": "Sustainability report"
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "#1 PET plastic jar.",
+        "source": "Label"
+      }
+    },
+    "recycling": "#1 plastic jar → blue cart (empty & rinse).",
+    "stores": [
+      "s1",
+      "s2",
+      "s5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p3",
+    "barcode": "0628000000035",
+    "emoji": "🥜",
+    "category": "Peanut butter",
+    "name": "NutriSun Organic Peanut Butter",
+    "brand": "NutriSun",
+    "price": 7.99,
+    "size": "750 g",
+    "owner": {
+      "name": "NutriSun Co. (USA)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Made in the USA by a US company.",
+        "source": ""
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": 80,
+        "status": "verified",
+        "note": "Fair-trade certified peanuts.",
+        "source": "Certifier database"
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "verified",
+        "note": "Certified organic.",
+        "source": "Organic certifier"
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Plastic jar.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic jar → blue cart (empty & rinse).",
+    "stores": [
+      "s2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p4",
+    "barcode": "0628000000042",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "Queen City Dark Roast",
+    "brand": "Queen City Roasters",
+    "price": 16.99,
+    "size": "340 g",
+    "owner": {
+      "name": "Queen City Roasters (Regina, SK)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 50,
+        "status": "verified",
+        "note": "Roasted in Regina. Beans are from Colombia — coffee can't be grown in Canada.",
+        "source": "Label"
+      },
+      "local": {
+        "score": 100,
+        "status": "verified",
+        "note": "Regina-owned small business.",
+        "source": "SK corporate registry"
+      },
+      "fairTrade": {
+        "score": 90,
+        "status": "verified",
+        "note": "Fairtrade certified beans.",
+        "source": "Fairtrade Canada"
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 70,
+        "status": "claimed",
+        "note": "Says it sources shade-grown beans.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 40,
+        "status": "claimed",
+        "note": "Bag claims to be 'compostable' — but Regina's green cart does NOT accept it.",
+        "source": "Label + City of Regina"
+      }
+    },
+    "recycling": "'Compostable' bag → garbage in Regina (not accepted in blue or green cart).",
+    "stores": [
+      "s3",
+      "s6"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p5",
+    "barcode": "0628000000059",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "Big Bean Instant Coffee",
+    "brand": "Big Bean",
+    "price": 8.49,
+    "size": "200 g",
+    "owner": {
+      "name": "Big Bean Global AG (Switzerland)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 10,
+        "status": "claimed",
+        "note": "Label says 'packed in Canada' — the coffee itself is imported.",
+        "source": "Label"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": 30,
+        "status": "claimed",
+        "note": "Company runs its own sustainability program — not independently certified.",
+        "source": "Company website"
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No independent environmental data found.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 70,
+        "status": "verified",
+        "note": "Glass jar.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Glass jar → blue cart. Plastic lid → blue cart.",
+    "stores": [
+      "s1",
+      "s2",
+      "s4",
+      "s5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p6",
+    "barcode": "0628000000066",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "Fairway Organic Medium Roast",
+    "brand": "Fairway Coffee",
+    "price": 13.49,
+    "size": "340 g",
+    "owner": {
+      "name": "Fairway Coffee Co-op (British Columbia)",
+      "status": "verified"
+    },
+    "originTier": "canadian_owned",
+    "factors": {
+      "canadian": {
+        "score": 60,
+        "status": "verified",
+        "note": "Canadian-owned, roasted in BC. Beans imported.",
+        "source": "Corporate registry"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Canadian but not Regina/SK.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": 95,
+        "status": "verified",
+        "note": "Fairtrade certified + worker co-op.",
+        "source": "Fairtrade Canada"
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 85,
+        "status": "verified",
+        "note": "Certified organic.",
+        "source": "Organic certifier"
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Multi-layer foil bag — not recyclable.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Foil bag → garbage.",
+    "stores": [
+      "s2",
+      "s4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p7",
+    "barcode": "0628000000073",
+    "emoji": "🥚",
+    "category": "Eggs",
+    "name": "Sask Farm Free-Run Eggs (12)",
+    "brand": "Sask Farm",
+    "price": 5.29,
+    "size": "12 large",
+    "owner": {
+      "name": "Sask Farm Family Co. (SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Product of Canada.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 70,
+        "status": "verified",
+        "note": "Saskatchewan farm (outside Regina).",
+        "source": "SK registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Fair trade certification doesn't apply to Canadian eggs.",
+        "source": ""
+      },
+      "animal": {
+        "score": 70,
+        "status": "verified",
+        "note": "Free-run, certified humane standard.",
+        "source": "Animal welfare certifier"
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Farm says it uses solar power in barns.",
+        "source": "Farm website"
+      },
+      "packaging": {
+        "score": 90,
+        "status": "verified",
+        "note": "Recycled cardboard carton.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Cardboard carton → blue cart (or green cart).",
+    "stores": [
+      "s1",
+      "s3",
+      "s4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p8",
+    "barcode": "0628000000080",
+    "emoji": "🥚",
+    "category": "Eggs",
+    "name": "Value Large White Eggs (12)",
+    "brand": "Store brand",
+    "price": 3.79,
+    "size": "12 large",
+    "owner": {
+      "name": "Retailer private label",
+      "status": "claimed"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Canadian eggs (supply-managed system).",
+        "source": "Egg Farmers of Canada"
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Farm location not disclosed.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Fair trade certification doesn't apply to Canadian eggs.",
+        "source": ""
+      },
+      "animal": {
+        "score": 30,
+        "status": "verified",
+        "note": "Conventional / enriched housing.",
+        "source": "Carton code"
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 40,
+        "status": "verified",
+        "note": "Clear plastic clamshell.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic clamshell → blue cart.",
+    "stores": [
+      "s1",
+      "s2",
+      "s5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p9",
+    "barcode": "0628000000097",
+    "emoji": "🥚",
+    "category": "Eggs",
+    "name": "Green Pasture Organic Free-Range (12)",
+    "brand": "Green Pasture",
+    "price": 7.99,
+    "size": "12 large",
+    "owner": {
+      "name": "Green Pasture Farms (Alberta)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Product of Canada.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 20,
+        "status": "verified",
+        "note": "Alberta — Prairie, but not SK.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Fair trade certification doesn't apply to Canadian eggs.",
+        "source": ""
+      },
+      "animal": {
+        "score": 90,
+        "status": "verified",
+        "note": "Certified organic, free-range with outdoor access.",
+        "source": "Organic certifier"
+      },
+      "environment": {
+        "score": 75,
+        "status": "verified",
+        "note": "Certified organic feed.",
+        "source": "Organic certifier"
+      },
+      "packaging": {
+        "score": 90,
+        "status": "verified",
+        "note": "Moulded pulp carton.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Pulp carton → green cart or blue cart.",
+    "stores": [
+      "s2",
+      "s4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p10",
+    "barcode": "0628000000103",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "Northern Bar Dark 70%",
+    "brand": "Northern Bar",
+    "price": 4.49,
+    "size": "100 g",
+    "owner": {
+      "name": "Northern Bar Chocolatier (Québec)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 60,
+        "status": "verified",
+        "note": "Made in Québec by a Canadian company. Cocoa is imported (can't be grown in Canada).",
+        "source": "Corporate registry"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not Regina/SK.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": 90,
+        "status": "verified",
+        "note": "Fairtrade certified cocoa.",
+        "source": "Fairtrade Canada"
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Dairy-free dark chocolate.",
+        "source": ""
+      },
+      "environment": {
+        "score": 70,
+        "status": "claimed",
+        "note": "Claims deforestation-free cocoa.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Paper wrapper, no plastic.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Paper wrapper → blue cart.",
+    "stores": [
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p11",
+    "barcode": "0628000000110",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "ChocoMax Milk Bar",
+    "brand": "ChocoMax",
+    "price": 1.99,
+    "size": "100 g",
+    "owner": {
+      "name": "Not confirmed",
+      "status": "unknown"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Country of manufacture not shown on package.",
+        "source": ""
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No certification found. This does NOT prove unfair labour — we just can't confirm.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "Dairy sourcing not disclosed.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 20,
+        "status": "verified",
+        "note": "Plastic film wrapper.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic film → garbage in Regina blue cart program.",
+    "stores": [
+      "s1",
+      "s5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p12",
+    "barcode": "0628000000127",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "Cocoa Circle Fairtrade Milk",
+    "brand": "Cocoa Circle",
+    "price": 3.99,
+    "size": "100 g",
+    "owner": {
+      "name": "Cocoa Circle NV (Belgium)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Made in Belgium.",
+        "source": ""
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": 95,
+        "status": "verified",
+        "note": "Fairtrade certified cocoa and sugar.",
+        "source": "Fairtrade International"
+      },
+      "animal": {
+        "score": 50,
+        "status": "claimed",
+        "note": "Says milk comes from 'pasture-based' farms.",
+        "source": "Company website"
+      },
+      "environment": {
+        "score": 60,
+        "status": "claimed",
+        "note": "Claims carbon-neutral factory.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 60,
+        "status": "claimed",
+        "note": "Paper + thin foil.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Paper → blue cart; foil → garbage.",
+    "stores": [
+      "s1",
+      "s2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p13",
+    "barcode": "0628000000134",
+    "emoji": "🍝",
+    "category": "Pasta",
+    "name": "Prairie Durum Spaghetti",
+    "brand": "Prairie Durum",
+    "price": 2.99,
+    "size": "900 g",
+    "owner": {
+      "name": "Prairie Durum Mills (SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 95,
+        "status": "verified",
+        "note": "Product of Canada — SK-grown durum wheat, milled in Canada.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 70,
+        "status": "verified",
+        "note": "Saskatchewan company.",
+        "source": "SK registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 60,
+        "status": "claimed",
+        "note": "Says it uses low-till farming partners.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 70,
+        "status": "verified",
+        "note": "Cardboard box with small plastic window.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Box → blue cart (tear off plastic window → garbage).",
+    "stores": [
+      "s1",
+      "s4",
+      "s6"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p14",
+    "barcode": "0628000000141",
+    "emoji": "🍝",
+    "category": "Pasta",
+    "name": "Bella Italia Spaghetti",
+    "brand": "Bella Italia",
+    "price": 2.49,
+    "size": "900 g",
+    "owner": {
+      "name": "Bella Italia SpA (Italy)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 20,
+        "status": "claimed",
+        "note": "Made in Italy. Package claims 'made with Canadian durum wheat'.",
+        "source": "Label"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 25,
+        "status": "verified",
+        "note": "Plastic bag.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bag → garbage.",
+    "stores": [
+      "s1",
+      "s2",
+      "s5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p15",
+    "barcode": "0628000000158",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Prairie Red Lentils",
+    "brand": "Prairie Pulse",
+    "price": 4.49,
+    "size": "900 g",
+    "owner": {
+      "name": "Prairie Pulse Co. (Regina, SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Grown and packed in Saskatchewan.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 90,
+        "status": "verified",
+        "note": "Grown in SK, packed in Regina.",
+        "source": "SK registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 80,
+        "status": "claimed",
+        "note": "Pulses fix their own nitrogen — lower fertilizer use.",
+        "source": "Pulse Canada"
+      },
+      "packaging": {
+        "score": 35,
+        "status": "verified",
+        "note": "Plastic bag.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bag → garbage.",
+    "stores": [
+      "s1",
+      "s4",
+      "s6"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p16",
+    "barcode": "0628000000165",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Desi Masoor Dal",
+    "brand": "Desi Kitchen",
+    "price": 3.99,
+    "size": "900 g",
+    "owner": {
+      "name": "Desi Kitchen Foods (India)",
+      "status": "claimed"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packed in India; lentil origin not stated. (Many red lentils sold worldwide are grown in Saskatchewan!)",
+        "source": ""
+      },
+      "local": {
+        "score": 40,
+        "status": "claimed",
+        "note": "Brand is imported, but sold by a Regina-owned independent grocer.",
+        "source": "Store"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Plastic bag.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bag → garbage.",
+    "stores": [
+      "s6"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p17",
+    "barcode": "0628000000172",
+    "emoji": "🥛",
+    "category": "Milk",
+    "name": "Prairie Dairy 2% Milk",
+    "brand": "Prairie Dairy",
+    "price": 5.19,
+    "size": "2 L",
+    "owner": {
+      "name": "Prairie Dairy Co-operative (SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Canadian milk from Saskatchewan farms.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 80,
+        "status": "verified",
+        "note": "Saskatchewan farmer-owned co-operative.",
+        "source": "SK co-op registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Fair trade certification doesn't apply to Canadian milk.",
+        "source": ""
+      },
+      "animal": {
+        "score": 55,
+        "status": "verified",
+        "note": "Farms follow the national dairy animal-care program.",
+        "source": "Dairy Farmers of Canada"
+      },
+      "environment": {
+        "score": 50,
+        "status": "claimed",
+        "note": "Co-op reports a methane-reduction pilot.",
+        "source": "Co-op website"
+      },
+      "packaging": {
+        "score": 60,
+        "status": "verified",
+        "note": "#2 HDPE plastic jug, recyclable.",
+        "source": "Label"
+      }
+    },
+    "recycling": "#2 jug → blue cart (rinse, lid on).",
+    "stores": [
+      "s1",
+      "s4",
+      "s7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p18",
+    "barcode": "0628000000189",
+    "emoji": "🥛",
+    "category": "Milk",
+    "name": "Northern Organic 2% Milk",
+    "brand": "Northern Organic",
+    "price": 7.49,
+    "size": "2 L",
+    "owner": {
+      "name": "Northern Organic Dairy (Ontario)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Product of Canada.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Ontario, not SK.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Fair trade certification doesn't apply to Canadian milk.",
+        "source": ""
+      },
+      "animal": {
+        "score": 85,
+        "status": "verified",
+        "note": "Certified organic: pasture access required.",
+        "source": "Organic certifier"
+      },
+      "environment": {
+        "score": 75,
+        "status": "verified",
+        "note": "Certified organic feed, no synthetic pesticides.",
+        "source": "Organic certifier"
+      },
+      "packaging": {
+        "score": 65,
+        "status": "claimed",
+        "note": "Paper carton with plastic cap.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Carton → blue cart.",
+    "stores": [
+      "s2",
+      "s7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p19",
+    "barcode": "0628000000196",
+    "emoji": "🥛",
+    "category": "Milk",
+    "name": "Oat Fields Oat Drink",
+    "brand": "Oat Fields",
+    "price": 4.99,
+    "size": "1.75 L",
+    "owner": {
+      "name": "Oat Fields AB (Sweden)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Made in the USA by a Swedish company.",
+        "source": ""
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Plant-based, no animal products.",
+        "source": ""
+      },
+      "environment": {
+        "score": 80,
+        "status": "claimed",
+        "note": "Company publishes a lower carbon footprint than dairy milk.",
+        "source": "Company climate report"
+      },
+      "packaging": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Paper carton with plastic cap.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Carton → blue cart.",
+    "stores": [
+      "s1",
+      "s2",
+      "s5",
+      "s7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p20",
+    "barcode": "0628000000202",
+    "emoji": "🍞",
+    "category": "Bread",
+    "name": "Regina Hearth Whole Wheat",
+    "brand": "Regina Hearth Bakery",
+    "price": 4.79,
+    "size": "675 g",
+    "owner": {
+      "name": "Regina Hearth Bakery (Regina, SK)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 90,
+        "status": "verified",
+        "note": "Baked in Regina with Saskatchewan wheat flour.",
+        "source": "Label + SK registry"
+      },
+      "local": {
+        "score": 100,
+        "status": "verified",
+        "note": "Regina-owned bakery.",
+        "source": "SK corporate registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 60,
+        "status": "claimed",
+        "note": "Bakery says it donates day-old bread to avoid waste.",
+        "source": "Bakery website"
+      },
+      "packaging": {
+        "score": 75,
+        "status": "verified",
+        "note": "Paper bag.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Paper bag → blue cart.",
+    "stores": [
+      "s3",
+      "s4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p21",
+    "barcode": "0628000000219",
+    "emoji": "🍞",
+    "category": "Bread",
+    "name": "Sunny Slice White Bread",
+    "brand": "Sunny Slice",
+    "price": 2.99,
+    "size": "675 g",
+    "owner": {
+      "name": "Multinational bakery group (parent outside Canada)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 50,
+        "status": "verified",
+        "note": "Baked in Canada; parent company is foreign-owned.",
+        "source": "Public company filings"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Plastic bag with plastic clip.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bag → garbage (soft plastic not accepted in blue cart).",
+    "stores": [
+      "s1",
+      "s2",
+      "s5",
+      "s7",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p22",
+    "barcode": "0628000000226",
+    "emoji": "🍯",
+    "category": "Honey",
+    "name": "Qu'Appelle Valley Raw Honey",
+    "brand": "Qu'Appelle Valley Apiaries",
+    "price": 9.99,
+    "size": "500 g",
+    "owner": {
+      "name": "Qu'Appelle Valley Apiaries (SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Product of Canada — Saskatchewan honey.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 85,
+        "status": "verified",
+        "note": "Family beekeepers in the Qu'Appelle Valley, SK.",
+        "source": "SK registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": 60,
+        "status": "claimed",
+        "note": "Says hives are not moved for commercial pollination.",
+        "source": "Farm website"
+      },
+      "environment": {
+        "score": 70,
+        "status": "claimed",
+        "note": "Says it plants wildflower strips for pollinators.",
+        "source": "Farm website"
+      },
+      "packaging": {
+        "score": 85,
+        "status": "verified",
+        "note": "Glass jar, metal lid.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Glass jar + lid → blue cart.",
+    "stores": [
+      "s3",
+      "s4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p23",
+    "barcode": "0628000000233",
+    "emoji": "🍯",
+    "category": "Honey",
+    "name": "Golden Blend Liquid Honey",
+    "brand": "Golden Blend",
+    "price": 6.49,
+    "size": "500 g",
+    "owner": {
+      "name": "Golden Blend Foods (Ontario)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 30,
+        "status": "verified",
+        "note": "Label says 'Blend of Canada and Argentina honey' — only part is Canadian.",
+        "source": "Label"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No certification found.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No information on hive practices.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Plastic squeeze bottle.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bottle → blue cart (empty).",
+    "stores": [
+      "s1",
+      "s5",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p24",
+    "barcode": "0628000000240",
+    "emoji": "🍁",
+    "category": "Maple syrup",
+    "name": "Érablière Boréale Pure Maple Syrup",
+    "brand": "Érablière Boréale",
+    "price": 12.99,
+    "size": "540 mL",
+    "owner": {
+      "name": "Érablière Boréale (Québec family sugar bush)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Product of Canada — Québec maple.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Québec, not SK.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 70,
+        "status": "claimed",
+        "note": "Says it manages its forest without clear-cutting.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 80,
+        "status": "verified",
+        "note": "Metal can.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Metal can → blue cart.",
+    "stores": [
+      "s1",
+      "s2",
+      "s4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p25",
+    "barcode": "0628000000257",
+    "emoji": "🥞",
+    "category": "Maple syrup",
+    "name": "Pancake Time Table Syrup",
+    "brand": "Pancake Time",
+    "price": 4.49,
+    "size": "750 mL",
+    "owner": {
+      "name": "Pancake Time Brands (USA)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Made in the USA. This is flavoured corn syrup, not maple syrup.",
+        "source": "Label"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Plastic bottle.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bottle → blue cart.",
+    "stores": [
+      "s1",
+      "s5",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p26",
+    "barcode": "0628000000264",
+    "emoji": "🌻",
+    "category": "Cooking oil",
+    "name": "Prairie Gold Canola Oil",
+    "brand": "Prairie Gold",
+    "price": 8.99,
+    "size": "3 L",
+    "owner": {
+      "name": "Prairie Gold Oilseeds (SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Saskatchewan-grown canola, pressed in SK.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 75,
+        "status": "verified",
+        "note": "Saskatchewan company.",
+        "source": "SK registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "claimed",
+        "note": "Says its growers use no-till farming.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 40,
+        "status": "verified",
+        "note": "Plastic jug.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic jug → blue cart (wipe out oil).",
+    "stores": [
+      "s1",
+      "s4",
+      "s6",
+      "s9",
+      "s10"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p27",
+    "barcode": "0628000000271",
+    "emoji": "🫒",
+    "category": "Cooking oil",
+    "name": "Olivia Extra Virgin Olive Oil",
+    "brand": "Olivia",
+    "price": 14.99,
+    "size": "1 L",
+    "owner": {
+      "name": "Olivia SpA (Italy)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Made in Italy with olives from Italy and Spain.",
+        "source": "Label"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No certification found.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 50,
+        "status": "claimed",
+        "note": "Says it uses traditional groves.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 75,
+        "status": "verified",
+        "note": "Dark glass bottle.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Glass bottle → blue cart.",
+    "stores": [
+      "s2",
+      "s7",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p28",
+    "barcode": "0628000000288",
+    "emoji": "🌾",
+    "category": "Oats & cereal",
+    "name": "Prairie Oat Mills Large Flake Oats",
+    "brand": "Prairie Oat Mills",
+    "price": 5.49,
+    "size": "1 kg",
+    "owner": {
+      "name": "Prairie Oat Mills (SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Saskatchewan oats, milled in Canada.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 70,
+        "status": "verified",
+        "note": "Saskatchewan company.",
+        "source": "SK registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 70,
+        "status": "claimed",
+        "note": "Says oats need less fertilizer than wheat.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 75,
+        "status": "verified",
+        "note": "Paper bag.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Paper bag → blue cart.",
+    "stores": [
+      "s1",
+      "s4",
+      "s7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p29",
+    "barcode": "0628000000295",
+    "emoji": "🥣",
+    "category": "Oats & cereal",
+    "name": "Morning Crunch Honey Granola",
+    "brand": "Morning Crunch",
+    "price": 6.99,
+    "size": "500 g",
+    "owner": {
+      "name": "Morning Crunch Foods (USA)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Made in the USA.",
+        "source": ""
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No certification found.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 35,
+        "status": "verified",
+        "note": "Cardboard box with plastic liner.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Box → blue cart; plastic liner → garbage.",
+    "stores": [
+      "s1",
+      "s2",
+      "s5",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p30",
+    "barcode": "0628000000301",
+    "emoji": "🍌",
+    "category": "Bananas",
+    "name": "Fairtrade Organic Bananas",
+    "brand": "Andes Growers",
+    "price": 2.49,
+    "size": "per kg",
+    "owner": {
+      "name": "Andes Growers Co-op (Peru)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Grown in Peru. Bananas can't be grown in Canada.",
+        "source": ""
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": 95,
+        "status": "verified",
+        "note": "Fairtrade certified farmer co-op.",
+        "source": "Fairtrade Canada"
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "verified",
+        "note": "Certified organic.",
+        "source": "Organic certifier"
+      },
+      "packaging": {
+        "score": 70,
+        "status": "verified",
+        "note": "Small plastic band only.",
+        "source": "Store"
+      }
+    },
+    "recycling": "Plastic band → garbage. Peels → green cart.",
+    "stores": [
+      "s2",
+      "s7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p31",
+    "barcode": "0628000000318",
+    "emoji": "🍌",
+    "category": "Bananas",
+    "name": "Bananas",
+    "brand": "Tropic Fresh",
+    "price": 1.69,
+    "size": "per kg",
+    "owner": {
+      "name": "Tropic Fresh Fruit Co. (USA)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Grown in Guatemala. Bananas can't be grown in Canada.",
+        "source": ""
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No certification found. This does NOT prove unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 95,
+        "status": "verified",
+        "note": "No packaging.",
+        "source": "Store"
+      }
+    },
+    "recycling": "Peels → green cart.",
+    "stores": [
+      "s1",
+      "s4",
+      "s5",
+      "s8",
+      "s9"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p32",
+    "barcode": "0628000000325",
+    "emoji": "🍵",
+    "category": "Tea",
+    "name": "Chai Wallah Masala Chai",
+    "brand": "Chai Wallah",
+    "price": 7.99,
+    "size": "40 bags",
+    "owner": {
+      "name": "Chai Wallah Blends (Regina, SK — newcomer-owned)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 40,
+        "status": "verified",
+        "note": "Blended and packed in Regina. Tea and spices come from India.",
+        "source": "Label + SK registry"
+      },
+      "local": {
+        "score": 100,
+        "status": "verified",
+        "note": "Regina-owned small business.",
+        "source": "SK corporate registry"
+      },
+      "fairTrade": {
+        "score": 85,
+        "status": "verified",
+        "note": "Fairtrade certified tea.",
+        "source": "Fairtrade Canada"
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 60,
+        "status": "claimed",
+        "note": "Says its tea bags are plastic-free.",
+        "source": "Label"
+      },
+      "packaging": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Paper box, no plastic wrap.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Box → blue cart. Used tea bags → green cart.",
+    "stores": [
+      "s3",
+      "s6"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p33",
+    "barcode": "0628000000332",
+    "emoji": "🍵",
+    "category": "Tea",
+    "name": "Royal Leaf Orange Pekoe",
+    "brand": "Royal Leaf",
+    "price": 5.49,
+    "size": "72 bags",
+    "owner": {
+      "name": "Royal Leaf Tea Co. (United Kingdom)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 10,
+        "status": "claimed",
+        "note": "Label says 'packed in Canada'. The tea is imported.",
+        "source": "Label"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": 60,
+        "status": "verified",
+        "note": "Rainforest Alliance certified (not Fairtrade).",
+        "source": "Certifier database"
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 55,
+        "status": "verified",
+        "note": "Rainforest Alliance farm standards.",
+        "source": "Certifier database"
+      },
+      "packaging": {
+        "score": 45,
+        "status": "verified",
+        "note": "Box with plastic over-wrap.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Box → blue cart; plastic wrap → garbage.",
+    "stores": [
+      "s1",
+      "s2",
+      "s5",
+      "s7",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p34",
+    "barcode": "0628000000349",
+    "emoji": "🍚",
+    "category": "Rice",
+    "name": "Northern Lakes Wild Rice",
+    "brand": "Northern Lakes",
+    "price": 9.99,
+    "size": "500 g",
+    "owner": {
+      "name": "Northern Lakes Harvesters Co-op (northern SK, Indigenous-owned)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Wild rice harvested from lakes in northern Saskatchewan.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 80,
+        "status": "verified",
+        "note": "Saskatchewan Indigenous-owned co-operative.",
+        "source": "SK co-op registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not a fair-trade category, but harvesters own the co-op.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 85,
+        "status": "claimed",
+        "note": "Wild-harvested, no fertilizer or irrigation.",
+        "source": "Co-op website"
+      },
+      "packaging": {
+        "score": 60,
+        "status": "verified",
+        "note": "Paper bag with small plastic window.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Paper bag → blue cart.",
+    "stores": [
+      "s3",
+      "s4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p35",
+    "barcode": "0628000000356",
+    "emoji": "🍚",
+    "category": "Rice",
+    "name": "Basmati Gold Rice",
+    "brand": "Basmati Gold",
+    "price": 12.99,
+    "size": "4 kg",
+    "owner": {
+      "name": "Basmati Gold Exports (India)",
+      "status": "claimed"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Grown and packed in India.",
+        "source": ""
+      },
+      "local": {
+        "score": 40,
+        "status": "claimed",
+        "note": "Imported brand, sold by Regina-owned independent grocers.",
+        "source": "Store"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No certification found.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Woven plastic bag.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bag → garbage.",
+    "stores": [
+      "s6",
+      "s10",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p36",
+    "barcode": "0628000000363",
+    "emoji": "🍚",
+    "category": "Rice",
+    "name": "Jasmine Pearl Rice",
+    "brand": "Jasmine Pearl",
+    "price": 10.49,
+    "size": "4 kg",
+    "owner": {
+      "name": "Jasmine Pearl Trading (Thailand)",
+      "status": "claimed"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Grown and packed in Thailand.",
+        "source": ""
+      },
+      "local": {
+        "score": 40,
+        "status": "claimed",
+        "note": "Imported brand, sold by a Regina-owned grocer.",
+        "source": "Store"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No certification found.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Plastic bag.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bag → garbage.",
+    "stores": [
+      "s10",
+      "s1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p37",
+    "barcode": "0628000000370",
+    "emoji": "🧀",
+    "category": "Cheese",
+    "name": "Prairie Creamery Old Cheddar",
+    "brand": "Prairie Creamery",
+    "price": 7.99,
+    "size": "400 g",
+    "owner": {
+      "name": "Prairie Creamery (SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Made from 100% Canadian milk.",
+        "source": "Dairy Farmers of Canada logo"
+      },
+      "local": {
+        "score": 80,
+        "status": "verified",
+        "note": "Saskatchewan creamery.",
+        "source": "SK registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": 55,
+        "status": "verified",
+        "note": "Milk from farms in the national dairy animal-care program.",
+        "source": "Dairy Farmers of Canada"
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Plastic vacuum pack.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic film → garbage.",
+    "stores": [
+      "s1",
+      "s4",
+      "s7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p38",
+    "barcode": "0628000000387",
+    "emoji": "🧀",
+    "category": "Cheese",
+    "name": "Alpine Imports Aged Gouda",
+    "brand": "Alpine Imports",
+    "price": 9.49,
+    "size": "300 g",
+    "owner": {
+      "name": "Alpine Imports BV (Netherlands)",
+      "status": "verified"
+    },
+    "originTier": "imported",
+    "factors": {
+      "canadian": {
+        "score": 0,
+        "status": "verified",
+        "note": "Made in the Netherlands.",
+        "source": ""
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": 60,
+        "status": "claimed",
+        "note": "Says cows graze outdoors in summer.",
+        "source": "Company website"
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 35,
+        "status": "verified",
+        "note": "Wax rind + plastic wrap.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Wax and plastic → garbage.",
+    "stores": [
+      "s2",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p39",
+    "barcode": "0628000000394",
+    "emoji": "🥩",
+    "category": "Ground beef",
+    "name": "Sask Ranchers Lean Ground Beef",
+    "brand": "Sask Ranchers",
+    "price": 6.99,
+    "size": "454 g",
+    "owner": {
+      "name": "Sask Ranchers Association brand (SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Product of Canada — Saskatchewan cattle.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 80,
+        "status": "verified",
+        "note": "Saskatchewan ranchers.",
+        "source": "SK registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": 60,
+        "status": "verified",
+        "note": "Ranches certified under a national on-farm beef program.",
+        "source": "Program registry"
+      },
+      "environment": {
+        "score": 30,
+        "status": "verified",
+        "note": "Beef has high greenhouse-gas emissions per kg compared with other proteins.",
+        "source": "Research consensus"
+      },
+      "packaging": {
+        "score": 35,
+        "status": "verified",
+        "note": "Foam tray + plastic film.",
+        "source": "Store"
+      }
+    },
+    "recycling": "Foam tray and film → garbage.",
+    "stores": [
+      "s1",
+      "s4",
+      "s7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p40",
+    "barcode": "0628000000400",
+    "emoji": "🥩",
+    "category": "Ground beef",
+    "name": "Value Lean Ground Beef",
+    "brand": "Store brand",
+    "price": 5.49,
+    "size": "454 g",
+    "owner": {
+      "name": "Retailer private label",
+      "status": "claimed"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Store-packed; country of origin not shown on the package.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Supplier not disclosed.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "No animal-welfare information.",
+        "source": ""
+      },
+      "environment": {
+        "score": 25,
+        "status": "verified",
+        "note": "Beef has high greenhouse-gas emissions per kg compared with other proteins.",
+        "source": "Research consensus"
+      },
+      "packaging": {
+        "score": 35,
+        "status": "verified",
+        "note": "Foam tray + plastic film.",
+        "source": "Store"
+      }
+    },
+    "recycling": "Foam tray and film → garbage.",
+    "stores": [
+      "s1",
+      "s5",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p41",
+    "barcode": "0628000000417",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Prairie Green Lentils",
+    "brand": "Prairie Pulse",
+    "price": 3.99,
+    "size": "900 g",
+    "owner": {
+      "name": "Prairie Pulse Co. (Regina, SK)",
+      "status": "verified"
+    },
+    "originTier": "product_of_canada",
+    "factors": {
+      "canadian": {
+        "score": 100,
+        "status": "verified",
+        "note": "Grown and packed in Saskatchewan.",
+        "source": "CFIA label rules"
+      },
+      "local": {
+        "score": 90,
+        "status": "verified",
+        "note": "Grown in SK, packed in Regina.",
+        "source": "SK registry"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 80,
+        "status": "claimed",
+        "note": "Pulses fix their own nitrogen — lower fertilizer use.",
+        "source": "Pulse Canada"
+      },
+      "packaging": {
+        "score": 35,
+        "status": "verified",
+        "note": "Plastic bag.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bag → garbage.",
+    "stores": [
+      "s1",
+      "s4",
+      "s6",
+      "s9"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p42",
+    "barcode": "0628000000424",
+    "emoji": "🫘",
+    "category": "Lentils & dal",
+    "name": "Sahel Black-Eyed Peas",
+    "brand": "Sahel Pantry",
+    "price": 4.29,
+    "size": "900 g",
+    "owner": {
+      "name": "Sahel Pantry Imports (Ontario)",
+      "status": "claimed"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Packed in Ontario; where the peas were grown is not stated.",
+        "source": ""
+      },
+      "local": {
+        "score": 40,
+        "status": "claimed",
+        "note": "Sold by a Regina-owned independent grocer.",
+        "source": "Store"
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": 75,
+        "status": "claimed",
+        "note": "Pulses have a low footprint.",
+        "source": "Pulse Canada"
+      },
+      "packaging": {
+        "score": 30,
+        "status": "verified",
+        "note": "Plastic bag.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic bag → garbage.",
+    "stores": [
+      "s9"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p43",
+    "barcode": "0628000000431",
+    "emoji": "🧺",
+    "category": "Laundry detergent",
+    "name": "Clean Prairie Laundry Strips",
+    "brand": "Clean Prairie",
+    "price": 14.99,
+    "size": "60 loads",
+    "owner": {
+      "name": "Clean Prairie Inc. (Alberta)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 75,
+        "status": "verified",
+        "note": "Made in Canada by a Canadian company.",
+        "source": "Corporate registry"
+      },
+      "local": {
+        "score": 20,
+        "status": "verified",
+        "note": "Alberta — Prairie, but not SK.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": 85,
+        "status": "verified",
+        "note": "Certified not tested on animals.",
+        "source": "Leaping Bunny"
+      },
+      "environment": {
+        "score": 70,
+        "status": "claimed",
+        "note": "Says it ships 90% less water weight than liquid detergent.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 90,
+        "status": "verified",
+        "note": "Cardboard sleeve, no plastic jug.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Cardboard sleeve → blue cart.",
+    "stores": [
+      "s2",
+      "s7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p44",
+    "barcode": "0628000000448",
+    "emoji": "🧺",
+    "category": "Laundry detergent",
+    "name": "MegaWash Liquid Detergent",
+    "brand": "MegaWash",
+    "price": 12.99,
+    "size": "64 loads",
+    "owner": {
+      "name": "MegaWash Global (USA)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 30,
+        "status": "verified",
+        "note": "Made in a Canadian plant; US-owned parent company.",
+        "source": "Public company filings"
+      },
+      "local": {
+        "score": 0,
+        "status": "verified",
+        "note": "Not a Regina/SK business.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "unknown",
+        "note": "Animal-testing policy not confirmed.",
+        "source": ""
+      },
+      "environment": {
+        "score": 40,
+        "status": "claimed",
+        "note": "Says the formula is concentrated.",
+        "source": "Company website"
+      },
+      "packaging": {
+        "score": 25,
+        "status": "verified",
+        "note": "Large plastic jug.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic jug → blue cart (empty, cap on).",
+    "stores": [
+      "s1",
+      "s5",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p45",
+    "barcode": "0628000000455",
+    "emoji": "☕",
+    "category": "Coffee",
+    "name": "Store Brand Ground Coffee",
+    "brand": "Store brand",
+    "price": 9.99,
+    "size": "925 g",
+    "owner": {
+      "name": "Retailer private label",
+      "status": "claimed"
+    },
+    "originTier": "unknown",
+    "factors": {
+      "canadian": {
+        "score": null,
+        "status": "unknown",
+        "note": "Roasting location not shown.",
+        "source": ""
+      },
+      "local": {
+        "score": null,
+        "status": "unknown",
+        "note": "Supplier not disclosed.",
+        "source": ""
+      },
+      "fairTrade": {
+        "score": null,
+        "status": "unknown",
+        "note": "No certification found. This does NOT prove unfair labour.",
+        "source": ""
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Not applicable to this product",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 35,
+        "status": "verified",
+        "note": "Plastic canister.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Plastic canister → blue cart.",
+    "stores": [
+      "s1",
+      "s5",
+      "s8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "p46",
+    "barcode": "0628000000462",
+    "emoji": "🍫",
+    "category": "Chocolate",
+    "name": "Wascana Chocolate Co. Sea Salt Bar",
+    "brand": "Wascana Chocolate Co.",
+    "price": 5.99,
+    "size": "80 g",
+    "owner": {
+      "name": "Wascana Chocolate Co. (Regina, SK)",
+      "status": "verified"
+    },
+    "originTier": "made_in_canada",
+    "factors": {
+      "canadian": {
+        "score": 55,
+        "status": "verified",
+        "note": "Made in Regina. Cocoa is imported (can't be grown in Canada).",
+        "source": "SK registry"
+      },
+      "local": {
+        "score": 100,
+        "status": "verified",
+        "note": "Regina-owned small business.",
+        "source": "SK corporate registry"
+      },
+      "fairTrade": {
+        "score": 70,
+        "status": "claimed",
+        "note": "Says it buys cocoa directly from farmer co-ops ('direct trade'), not certified.",
+        "source": "Company website"
+      },
+      "animal": {
+        "score": null,
+        "status": "na",
+        "note": "Dairy-free dark chocolate.",
+        "source": ""
+      },
+      "environment": {
+        "score": null,
+        "status": "unknown",
+        "note": "No data.",
+        "source": ""
+      },
+      "packaging": {
+        "score": 80,
+        "status": "claimed",
+        "note": "Paper wrapper.",
+        "source": "Label"
+      }
+    },
+    "recycling": "Paper → blue cart.",
+    "stores": [
+      "s3"
+    ],
+    "source": "synthetic"
+  }
+]
