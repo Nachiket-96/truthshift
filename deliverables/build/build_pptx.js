@@ -211,6 +211,27 @@ async function iconCircle(s, name, x, y, d, bg, fg, objectName) {
     arrow(4.75, 3.1, 1.0, 0.75, "arrow-api-claude");
   }
 
+  // ---------- Model explanation (2 slides for a teammate to fill in PowerPoint) ----------
+  pres.addSection({ title: "Model" });
+  const modelSlide = async (title, boxLabel, points, notes, n) => {
+    const s = add("CONTENT", "Model", title, notes);
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: M, y: 1.3, w: 5.6, h: 3.6, rectRadius: 0.12, fill: { color: HEX.tint },
+      line: { color: HEX.accent, width: 1.25, dashType: "dash" }, objectName: `model-${n}-visual-area` });
+    s.addImage({ data: await icon(n === 1 ? "LuChartColumn" : "LuSparkles", HEX.accent), x: M + 2.45, y: 2.35, w: 0.7, h: 0.7, objectName: `model-${n}-visual-icon`, altText: "" });
+    text(s, boxLabel, { x: M + 0.4, y: 3.2, w: 4.8, h: 0.6, fontSize: 14, color: HEX.accent, align: "center" });
+    for (let i = 0; i < points.length; i++) {
+      const y = 1.5 + i * 1.15;
+      await iconCircle(s, ["LuCircleCheck", "LuArrowRight", "LuBadgeCheck"][i], 6.55, y, 0.6, HEX.accent, "FFFFFF", `model-${n}-point-${i + 1}`);
+      text(s, points[i], { x: 7.3, y, w: 2.2, h: 0.6, fontSize: 15, bold: true, color: HEX.dark, valign: "middle" });
+    }
+  };
+  await modelSlide("[Model name]: what it does", "Replace with a diagram, chart or screenshot of the model",
+    ["[Input: what goes in]", "[Output: what comes out]", "[Why it helps shoppers]"],
+    "[Teammate name] presents the model. Explain in plain words what the model takes in, what it produces, and how that helps a shopper.", 1);
+  await modelSlide("How the model works", "Replace with the model's steps or architecture",
+    ["[Step 1]", "[Step 2]", "[Result or accuracy]"],
+    "[Teammate name]: walk through the steps of the model, the data it was trained or tested on, and how well it works. Mention one limitation honestly.", 2);
+
   // ---------- 10. Data ----------
   {
     const s = add("CONTENT", "How it is built", "118 products, honestly labelled",
