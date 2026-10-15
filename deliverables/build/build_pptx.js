@@ -13,7 +13,7 @@ const pptxgen = require("pptxgenjs");
 let applyTheme = async () => {};
 if (process.env.APPLY_THEME_JS) ({ applyTheme } = require(process.env.APPLY_THEME_JS));
 
-const OUT = path.resolve(__dirname, "..", "TruthShift_Presentation.pptx");
+const OUT = path.resolve(__dirname, "..", "..", "presentation", "TruthShift_Presentation.pptx");
 const SHOT = name => path.join(__dirname, "shots", `${name}_crop.jpg`);
 
 const THEME = {

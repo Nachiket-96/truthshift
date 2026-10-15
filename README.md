@@ -38,9 +38,9 @@ git clone https://github.com/Nachiket-96/truthshift.git
 | Folder | What it is |
 | --- | --- |
 | [`truthshift/`](truthshift/) | **The app**: React frontend and Python FastAPI backend |
-| [`deliverables/`](deliverables/) | PowerPoint presentation and Word documentation, plus the scripts that generate them |
+| [`presentation/`](presentation/) | **[TruthShift_Presentation.pptx](presentation/TruthShift_Presentation.pptx)**, the PowerPoint deck with speaker notes (plus source files of an earlier online slide version) |
+| [`deliverables/`](deliverables/) | Word documentation, plus the scripts that generate the deck and the document |
 | [`prototype/`](prototype/) | First prototype: a single-page HTML/JS version |
-| [`presentation/`](presentation/) | Source files of the online slide version |
 
 ## Data
 
